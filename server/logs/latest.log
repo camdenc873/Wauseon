@@ -1,233 +1,1620 @@
-[02:21:12] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[02:21:12] [Server thread/INFO]: Loading properties
-[02:21:13] [Server thread/INFO]: Default game type: SURVIVAL
-[02:21:13] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[02:21:13] [Server thread/INFO]: Debug logging is disabled
-[02:21:13] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[02:21:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:45:01] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[12:45:01] [Server thread/INFO]: Loading properties
+[12:45:01] [Server thread/INFO]: Default game type: SURVIVAL
+[12:45:01] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[12:45:01] [Server thread/INFO]: Debug logging is disabled
+[12:45:01] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[12:45:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[02:21:13] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:21:13] [Server thread/INFO]: Data value allowed items: 
-[02:21:13] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[12:45:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:45:01] [Server thread/INFO]: Data value allowed items: 
+[12:45:01] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[02:21:13] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[12:45:01] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[02:21:13] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[12:45:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[02:21:13] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[12:45:01] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[02:21:13] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[12:45:01] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[02:21:13] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[12:45:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[02:21:13] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[12:45:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[02:21:13] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[12:45:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[02:21:13] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[12:45:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[02:21:13] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:45:01] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[02:21:13] [Server thread/INFO]: Generating keypair
-[02:21:13] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[02:21:13] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[02:21:13] [Server thread/INFO]: Using default channel type
-[02:21:14] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[02:21:14] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[02:21:14] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[02:21:14] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[02:21:14] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[02:21:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:21:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:21:14] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[02:21:14] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[02:21:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:21:14] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[02:21:14] [Server thread/INFO]: Preparing level "world"
-[02:21:14] [Server thread/INFO]: -------- World Settings For [world] --------
-[02:21:14] [Server thread/INFO]: Mob Spawn Range: 4
-[02:21:14] [Server thread/INFO]: Anti X-Ray: true
-[02:21:14] [Server thread/INFO]: 	Engine Mode: 1
-[02:21:14] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[02:21:14] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[02:21:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[02:21:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Cane Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Melon Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[02:21:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[02:21:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[02:21:14] [Server thread/INFO]: Random Lighting Updates: false
-[02:21:14] [Server thread/INFO]: Structure Info Saving: true
-[02:21:14] [Server thread/INFO]: Sending up to 10 chunks per packet
-[02:21:14] [Server thread/INFO]: Max Entity Collisions: 8
-[02:21:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[02:21:14] [Server thread/INFO]: Max TNT Explosions: 100
-[02:21:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[02:21:14] [Server thread/INFO]: Item Despawn Rate: 6000
-[02:21:14] [Server thread/INFO]: Item Merge Radius: 2.5
-[02:21:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[02:21:14] [Server thread/INFO]: View Distance: 4
-[02:21:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[02:21:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[02:21:14] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[02:21:14] [Server thread/INFO]: Clear tick list: false
-[02:21:14] [Server thread/INFO]: Experience Merge Radius: 3.0
-[02:21:14] [Server thread/INFO]: -------- World Settings For [world] --------
-[02:21:14] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[02:21:14] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[02:21:14] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[02:21:14] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[02:21:14] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[02:21:14] [Server thread/INFO]: Fix TNT cannons: false
-[02:21:14] [Server thread/INFO]: Water over lava flow speed: 5
-[02:21:14] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[02:21:14] [Server thread/INFO]: Keep spawn chunk loaded: true
-[02:21:14] [Server thread/INFO]: World async lighting: false
-[02:21:14] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[02:21:14] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[02:21:14] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[02:21:14] [Server thread/INFO]: Mob Spawn Range: 4
-[02:21:14] [Server thread/INFO]: Anti X-Ray: true
-[02:21:14] [Server thread/INFO]: 	Engine Mode: 1
-[02:21:14] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[02:21:14] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[02:21:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[02:21:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Cane Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Melon Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[02:21:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[02:21:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[02:21:14] [Server thread/INFO]: Random Lighting Updates: false
-[02:21:14] [Server thread/INFO]: Structure Info Saving: true
-[02:21:14] [Server thread/INFO]: Sending up to 10 chunks per packet
-[02:21:14] [Server thread/INFO]: Max Entity Collisions: 8
-[02:21:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[02:21:14] [Server thread/INFO]: Max TNT Explosions: 100
-[02:21:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[02:21:14] [Server thread/INFO]: Item Despawn Rate: 6000
-[02:21:14] [Server thread/INFO]: Item Merge Radius: 2.5
-[02:21:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[02:21:14] [Server thread/INFO]: View Distance: 4
-[02:21:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[02:21:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[02:21:14] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[02:21:14] [Server thread/INFO]: Clear tick list: false
-[02:21:14] [Server thread/INFO]: Experience Merge Radius: 3.0
-[02:21:14] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[02:21:14] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[02:21:14] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[02:21:14] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[02:21:14] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[02:21:14] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[02:21:14] [Server thread/INFO]: Fix TNT cannons: false
-[02:21:14] [Server thread/INFO]: Water over lava flow speed: 5
-[02:21:14] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[02:21:14] [Server thread/INFO]: Keep spawn chunk loaded: true
-[02:21:14] [Server thread/INFO]: World async lighting: false
-[02:21:14] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[02:21:14] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[02:21:14] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[02:21:14] [Server thread/INFO]: Mob Spawn Range: 4
-[02:21:14] [Server thread/INFO]: Anti X-Ray: true
-[02:21:14] [Server thread/INFO]: 	Engine Mode: 1
-[02:21:14] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[02:21:14] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[02:21:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[02:21:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Cane Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Melon Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[02:21:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[02:21:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[02:21:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[02:21:14] [Server thread/INFO]: Random Lighting Updates: false
-[02:21:14] [Server thread/INFO]: Structure Info Saving: true
-[02:21:14] [Server thread/INFO]: Sending up to 10 chunks per packet
-[02:21:14] [Server thread/INFO]: Max Entity Collisions: 8
-[02:21:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[02:21:14] [Server thread/INFO]: Max TNT Explosions: 100
-[02:21:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[02:21:14] [Server thread/INFO]: Item Despawn Rate: 6000
-[02:21:14] [Server thread/INFO]: Item Merge Radius: 2.5
-[02:21:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[02:21:14] [Server thread/INFO]: View Distance: 4
-[02:21:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[02:21:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[02:21:14] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[02:21:14] [Server thread/INFO]: Clear tick list: false
-[02:21:14] [Server thread/INFO]: Experience Merge Radius: 3.0
-[02:21:14] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[02:21:14] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[02:21:14] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[02:21:14] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[02:21:14] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[02:21:14] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[02:21:14] [Server thread/INFO]: Fix TNT cannons: false
-[02:21:14] [Server thread/INFO]: Water over lava flow speed: 5
-[02:21:14] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[02:21:14] [Server thread/INFO]: Keep spawn chunk loaded: true
-[02:21:14] [Server thread/INFO]: World async lighting: false
-[02:21:14] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[02:21:14] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[02:21:14] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3985039370478816258)
-[02:21:15] [Server thread/INFO]: Preparing spawn area: 21%
-[02:21:16] [Server thread/INFO]: Preparing spawn area: 86%
-[02:21:17] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3985039370478816258)
-[02:21:18] [Server thread/INFO]: Preparing spawn area: 48%
-[02:21:18] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3985039370478816258)
-[02:21:19] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[02:21:19] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[12:45:01] [Server thread/INFO]: Generating keypair
+[12:45:02] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[12:45:02] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[12:45:02] [Server thread/INFO]: Using default channel type
+[12:45:02] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:45:02] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[12:45:02] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[12:45:02] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[12:45:02] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[12:45:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:45:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:45:02] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[12:45:02] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[12:45:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:45:02] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:45:02] [Server thread/INFO]: Preparing level "world"
+[12:45:02] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:45:02] [Server thread/INFO]: Anti X-Ray: true
+[12:45:02] [Server thread/INFO]: 	Engine Mode: 1
+[12:45:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:45:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:45:02] [Server thread/INFO]: Mob Spawn Range: 4
+[12:45:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:45:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:45:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:45:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:45:02] [Server thread/INFO]: Random Lighting Updates: false
+[12:45:02] [Server thread/INFO]: Structure Info Saving: true
+[12:45:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:45:02] [Server thread/INFO]: Max Entity Collisions: 8
+[12:45:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:45:02] [Server thread/INFO]: Max TNT Explosions: 100
+[12:45:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:45:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:45:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:45:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:45:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:45:02] [Server thread/INFO]: View Distance: 4
+[12:45:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:45:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:45:02] [Server thread/INFO]: Clear tick list: false
+[12:45:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:45:02] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:45:02] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:45:02] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:45:02] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:45:02] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:45:02] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:45:02] [Server thread/INFO]: Water over lava flow speed: 5
+[12:45:02] [Server thread/INFO]: Fix TNT cannons: false
+[12:45:02] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:45:02] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:45:02] [Server thread/INFO]: World async lighting: false
+[12:45:02] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:45:02] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:45:02] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:45:02] [Server thread/INFO]: Anti X-Ray: true
+[12:45:02] [Server thread/INFO]: 	Engine Mode: 1
+[12:45:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:45:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:45:02] [Server thread/INFO]: Mob Spawn Range: 4
+[12:45:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:45:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:45:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:45:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:45:02] [Server thread/INFO]: Random Lighting Updates: false
+[12:45:02] [Server thread/INFO]: Structure Info Saving: true
+[12:45:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:45:02] [Server thread/INFO]: Max Entity Collisions: 8
+[12:45:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:45:02] [Server thread/INFO]: Max TNT Explosions: 100
+[12:45:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:45:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:45:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:45:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:45:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:45:02] [Server thread/INFO]: View Distance: 4
+[12:45:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:45:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:45:02] [Server thread/INFO]: Clear tick list: false
+[12:45:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:45:02] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:45:02] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:45:02] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:45:02] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:45:02] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:45:02] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:45:02] [Server thread/INFO]: Water over lava flow speed: 5
+[12:45:02] [Server thread/INFO]: Fix TNT cannons: false
+[12:45:02] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:45:02] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:45:02] [Server thread/INFO]: World async lighting: false
+[12:45:02] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:45:02] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:45:02] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:45:02] [Server thread/INFO]: Anti X-Ray: true
+[12:45:02] [Server thread/INFO]: 	Engine Mode: 1
+[12:45:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:45:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:45:02] [Server thread/INFO]: Mob Spawn Range: 4
+[12:45:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:45:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:45:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:45:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:45:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:45:02] [Server thread/INFO]: Random Lighting Updates: false
+[12:45:02] [Server thread/INFO]: Structure Info Saving: true
+[12:45:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:45:02] [Server thread/INFO]: Max Entity Collisions: 8
+[12:45:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:45:02] [Server thread/INFO]: Max TNT Explosions: 100
+[12:45:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:45:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:45:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:45:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:45:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:45:02] [Server thread/INFO]: View Distance: 4
+[12:45:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:45:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:45:02] [Server thread/INFO]: Clear tick list: false
+[12:45:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:45:02] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:45:02] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:45:02] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:45:02] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:45:02] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:45:02] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:45:02] [Server thread/INFO]: Water over lava flow speed: 5
+[12:45:02] [Server thread/INFO]: Fix TNT cannons: false
+[12:45:02] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:45:02] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:45:02] [Server thread/INFO]: World async lighting: false
+[12:45:02] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:45:02] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:45:02] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3985039370478816258)
+[12:45:03] [Server thread/INFO]: Preparing spawn area: 37%
+[12:45:04] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3985039370478816258)
+[12:45:05] [Server thread/INFO]: Preparing spawn area: 83%
+[12:45:05] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3985039370478816258)
+[12:45:06] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[12:45:06] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[02:21:19] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[12:45:06] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[02:21:19] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[02:21:19] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[02:21:19] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[02:21:19] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[02:21:20] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[02:21:20] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[02:21:20] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[02:21:20] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[02:21:20] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[02:21:20] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[02:21:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:21:20] [Server thread/INFO]: Done (6.120s)! For help, type "help" or "?"
-[02:21:20] [Server thread/INFO]: Timings Reset
-[02:21:22] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[12:45:06] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[12:45:06] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[12:45:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[12:45:06] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:45:07] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[12:45:07] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[12:45:07] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[12:45:07] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[12:45:07] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[12:45:07] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[12:45:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:45:07] [Server thread/INFO]: Done (4.959s)! For help, type "help" or "?"
+[12:45:07] [Server thread/INFO]: Timings Reset
+[12:45:08] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
 
-[02:21:22] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[12:45:08] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
 
-[02:21:22] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[12:45:08] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
-[02:22:38] [Thread-7/INFO]: UUID of player drew is 21b8b8c2-05e0-3fff-ad32-ec3a17f792db
-[02:22:38] [Server thread/INFO]: drew[/[0:0:0:0:0:0:0:1]:53136] logged in with entity id 204 at ([world]89.01733103711324, 68.0, 208.27726082383498)
-[02:24:58] [Server thread/INFO]: drew lost connection: Disconnected
-[02:24:58] [Server thread/INFO]: drew left the game.
-[03:19:23] [Thread-10/INFO]: UUID of player Charv12 is 900fd882-86a7-3a42-a020-ba61f746e93c
-[03:19:23] [Server thread/INFO]: Charv12[/[0:0:0:0:0:0:0:1]:35920] logged in with entity id 15553 at ([world]-26.490287688610902, 72.0, 230.22089286265208)
-[03:20:59] [Server thread/INFO]: Charv12 lost connection: Disconnected
-[03:20:59] [Server thread/INFO]: Charv12 left the game.
-[04:20:30] [Thread-13/INFO]: UUID of player JacksonStorm is d95ee2be-2441-36e4-b9b4-6508b52df6e4
-[04:20:30] [Server thread/INFO]: JacksonStorm[/[0:0:0:0:0:0:0:1]:60380] logged in with entity id 25537 at ([world]-28.319570294836588, 64.0, 214.47069698477114)
-[04:22:44] [Server thread/INFO]: JacksonStorm lost connection: Disconnected
-[04:22:44] [Server thread/INFO]: JacksonStorm left the game.
-[04:23:06] [Thread-14/INFO]: UUID of player JacksonStorm is d95ee2be-2441-36e4-b9b4-6508b52df6e4
-[04:23:06] [Server thread/INFO]: JacksonStorm[/[0:0:0:0:0:0:0:1]:57006] logged in with entity id 42214 at ([world]-16.300000011920947, 10.0, 114.10998872430618)
-[04:30:45] [Server thread/INFO]: JacksonStorm lost connection: Disconnected
-[04:30:45] [Server thread/INFO]: JacksonStorm left the game.
+[12:46:38] [Thread-7/INFO]: UUID of player freakbob is f21fd111-17cc-3dc8-ae10-2963b3de0dd3
+[12:46:38] [Server thread/INFO]: freakbob[/[0:0:0:0:0:0:0:1]:36622] logged in with entity id 209 at ([world]1024.5860005346458, 64.0, -1452.9052257581302)
+[12:46:44] [Server thread/INFO]: freakbob lost connection: Disconnected
+[12:46:44] [Server thread/INFO]: freakbob left the game.
+[12:48:54] [Thread-8/INFO]: UUID of player JacksonStorm is d95ee2be-2441-36e4-b9b4-6508b52df6e4
+[12:48:54] [Server thread/INFO]: JacksonStorm[/[0:0:0:0:0:0:0:1]:38052] logged in with entity id 934 at ([world]-33.49263249249461, 67.0, 210.5358063732935)
+[12:49:54] [Thread-9/INFO]: UUID of player freakbob is f21fd111-17cc-3dc8-ae10-2963b3de0dd3
+[12:49:55] [Server thread/INFO]: freakbob[/[0:0:0:0:0:0:0:1]:37702] logged in with entity id 8234 at ([world]1024.5860005346458, 64.0, -1452.9052257581302)
+[12:53:09] [Server thread/INFO]: Enchanting succeeded
+[12:53:15] [Server thread/INFO]: Enchanting succeeded
+[12:53:22] [Server thread/INFO]: Enchanting succeeded
+[12:54:21] [Server thread/INFO]: Enchanting succeeded
+[12:54:27] [Server thread/INFO]: Enchanting succeeded
+[12:54:34] [Server thread/INFO]: Enchanting succeeded
+[12:56:03] [Server thread/INFO]: Game rule has been updated
+[12:56:58] [Thread-11/INFO]: UUID of player drew is 21b8b8c2-05e0-3fff-ad32-ec3a17f792db
+[12:56:58] [Server thread/INFO]: drew[/[0:0:0:0:0:0:0:1]:58790] logged in with entity id 104573 at ([world]-26.769826151357844, 64.0, 226.83790236567506)
+[12:57:01] [Thread-12/INFO]: UUID of player Mason is c12cc45b-0377-32a5-8fa0-d0f7cc95b22c
+[12:57:01] [Server thread/INFO]: Mason[/[0:0:0:0:0:0:0:1]:58794] logged in with entity id 105171 at ([world]-21.073789974346823, 64.0, 215.1339159904557)
+[12:57:03] [Server thread/INFO]: freakbob issued server command: /home chests
+[12:58:06] [Server thread/INFO]: freakbob issued server command: /home house
+[12:58:15] [Thread-13/INFO]: UUID of player Bolt is fe4e1a29-be4f-35e1-a6bd-214391343b87
+[12:58:15] [Server thread/INFO]: Bolt[/[0:0:0:0:0:0:0:1]:50592] logged in with entity id 121497 at ([world]-132.78927795133018, 64.0, 233.99890491836075)
+[12:59:31] [Server thread/INFO]: Bolt lost connection: Disconnected
+[12:59:31] [Server thread/INFO]: Bolt left the game.
+[13:00:18] [Server thread/INFO]: freakbob lost connection: Disconnected
+[13:00:18] [Server thread/INFO]: freakbob left the game.
+[13:00:22] [Thread-14/INFO]: UUID of player Bolt is fe4e1a29-be4f-35e1-a6bd-214391343b87
+[13:00:23] [Server thread/INFO]: Bolt[/[0:0:0:0:0:0:0:1]:37208] logged in with entity id 164065 at ([world]-152.14140117782588, 65.0, 263.5654578964154)
+[13:00:53] [Server thread/INFO]: Bolt lost connection: Login timed out!
+[13:00:53] [Server thread/INFO]: Bolt left the game.
+[13:00:53] [Server thread/WARN]: handleDisconnection() called twice
+[13:00:57] [Thread-15/INFO]: UUID of player freakbob is f21fd111-17cc-3dc8-ae10-2963b3de0dd3
+[13:00:57] [Server thread/INFO]: freakbob[/[0:0:0:0:0:0:0:1]:59764] logged in with entity id 174063 at ([world_nether]57.87618908131223, 37.0, -218.36081565700124)
+[13:01:08] [Server thread/INFO]: JacksonStorm lost connection: Disconnected
+[13:01:08] [Server thread/INFO]: JacksonStorm left the game.
+[13:01:34] [Thread-16/INFO]: UUID of player Bolt is fe4e1a29-be4f-35e1-a6bd-214391343b87
+[13:01:35] [Server thread/INFO]: Bolt[/[0:0:0:0:0:0:0:1]:40532] logged in with entity id 185045 at ([world]-152.14140117782588, 65.0, 263.5654578964154)
+[13:02:00] [Thread-17/INFO]: UUID of player JacksonStorm is d95ee2be-2441-36e4-b9b4-6508b52df6e4
+[13:02:00] [Server thread/INFO]: JacksonStorm[/[0:0:0:0:0:0:0:1]:35874] logged in with entity id 194612 at ([world]-30.323717080046677, 72.0, 199.42021986885564)
+[13:03:04] [Thread-18/INFO]: UUID of player ViggVigg718 is 445c268a-b3b2-3ef8-9ca1-382238ff28ee
+[13:03:04] [Server thread/INFO]: ViggVigg718[/[0:0:0:0:0:0:0:1]:36424] logged in with entity id 214133 at ([world]-37.5, 68.0, 248.5)
+[13:03:06] [Thread-19/INFO]: UUID of player PongMingus is 3770f695-f0b5-3ef3-b08a-4c9cfb37e7c6
+[13:03:06] [Server thread/INFO]: PongMingus[/[0:0:0:0:0:0:0:1]:36430] logged in with entity id 214622 at ([world]-1070.0573081170573, 73.0, 1787.4891733044942)
+[13:03:14] [Server thread/INFO]: freakbob issued server command: /tpa PongMingus
+[13:03:22] [Async Chat Thread - #0/INFO]: <freakbob> shane accept i have a housewarming present[m
+
+[13:03:35] [Server thread/INFO]: ViggVigg718 lost connection: Login timed out!
+[13:03:35] [Server thread/INFO]: ViggVigg718 left the game.
+[13:03:35] [Server thread/WARN]: handleDisconnection() called twice
+[13:03:47] [Thread-20/INFO]: UUID of player ViggVigg718 is 445c268a-b3b2-3ef8-9ca1-382238ff28ee
+[13:03:48] [Server thread/INFO]: ViggVigg718[/[0:0:0:0:0:0:0:1]:41186] logged in with entity id 232539 at ([world]-37.336202575572294, 68.0, 248.99621156646737)
+[13:03:52] [Server thread/INFO]: freakbob issued server command: /tpa PongMingus
+[13:04:00] [Async Chat Thread - #0/INFO]: <freakbob> viggvigg u have to type in your old username[m
+
+[13:04:02] [Async Chat Thread - #0/INFO]: <Bolt> who is vigg vigg[m
+
+[13:04:08] [Server thread/INFO]: freakbob issued server command: /home house
+[13:04:21] [Async Chat Thread - #0/INFO]: <ViggVigg718> my bad thats me miles i forgot to change my name[m
+
+[13:04:29] [Async Chat Thread - #0/INFO]: <Mason> jack gimme your pickaxe rq[m
+
+[13:04:35] [Thread-21/INFO]: UUID of player TP_ is 6a99ffff-622c-38de-a842-f026f32e3b2e
+[13:04:35] [Server thread/INFO]: TP_[/[0:0:0:0:0:0:0:1]:58518] logged in with entity id 254796 at ([world]1017.0584425452264, 64.0, -1487.0452370043663)
+[13:04:48] [Async Chat Thread - #0/INFO]: <Mason> JACK[m
+
+[13:04:50] [Async Chat Thread - #0/INFO]: <Mason> stop[m
+
+[13:04:58] [Async Chat Thread - #0/INFO]: <JacksonStorm> did you get the pick[m
+
+[13:04:59] [Async Chat Thread - #0/INFO]: <ViggVigg718> how did you guys get this much already[m
+
+[13:05:03] [Server thread/INFO]: freakbob issued server command: /tpa pongmingus
+[13:05:05] [Async Chat Thread - #0/INFO]: <Mason> because were good[m
+
+[13:05:13] [Async Chat Thread - #0/INFO]: <freakbob> shane hit accept[m
+
+[13:05:15] [Async Chat Thread - #0/INFO]: <freakbob> i have gift[m
+
+[13:05:17] [Async Chat Thread - #0/INFO]: <JacksonStorm> did you get it[m
+
+[13:05:21] [Async Chat Thread - #0/INFO]: <freakbob> my old diamond sword and pick[m
+
+[13:05:26] [Async Chat Thread - #0/INFO]: <Mason> ye[m
+
+[13:06:04] [Async Chat Thread - #0/INFO]: <Mason> dont steal my xp jack[m
+
+[13:06:20] [Async Chat Thread - #0/INFO]: <freakbob> okay fine shane ur not getting my diamond tools pal[m
+
+[13:06:52] [Server thread/WARN]: Mason moved wrongly!
+[13:07:03] [Server thread/INFO]: ViggVigg718 has just earned the achievement [Taking Inventory]
+[13:07:06] [Server thread/WARN]: Mason moved wrongly!
+[13:07:10] [Async Chat Thread - #0/INFO]: <freakbob> who is vigg vigg now[m
+
+[13:07:24] [Async Chat Thread - #0/INFO]: <freakbob> identify yourself[m
+
+[13:07:32] [Server thread/WARN]: Mason moved wrongly!
+[13:07:36] [Async Chat Thread - #0/INFO]: <ViggVigg718> im miles forgot to change my name[m
+
+[13:07:41] [Async Chat Thread - #0/INFO]: <freakbob> leave the game[m
+
+[13:07:44] [Async Chat Thread - #0/INFO]: <freakbob> go to main screen[m
+
+[13:07:51] [Server thread/INFO]: ViggVigg718 lost connection: Disconnected
+[13:07:51] [Server thread/INFO]: ViggVigg718 left the game.
+[13:07:53] [Async Chat Thread - #0/INFO]: <freakbob> hit edit profile in bottom right corner[m
+
+[13:07:55] [Async Chat Thread - #0/INFO]: <freakbob> oh[m
+
+[13:08:10] [Thread-22/INFO]: UUID of player MK_ is d4d6ecd4-71a9-35bc-a611-24a169067c8f
+[13:08:10] [Server thread/INFO]: MK_[/[0:0:0:0:0:0:0:1]:33524] logged in with entity id 358302 at ([world]992.9576913225802, 64.5625, -1445.519759057858)
+[13:08:36] [Async Chat Thread - #0/INFO]: <Mason> go away connor[m
+
+[13:08:41] [Async Chat Thread - #0/INFO]: <Bolt> why so mean[m
+
+[13:08:43] [Async Chat Thread - #0/INFO]: <MK_> were is everybody at[m
+
+[13:08:44] [Async Chat Thread - #0/INFO]: <Mason> my xp[m
+
+[13:09:00] [Async Chat Thread - #0/INFO]: <Mason> i dont have the means to share rn[m
+
+[13:09:24] [Thread-23/INFO]: UUID of player Gage is bd132ed1-e623-37f6-be15-f8477cb0e962
+[13:09:24] [Server thread/INFO]: Gage[/[0:0:0:0:0:0:0:1]:33970] logged in with entity id 391263 at ([world]-30.5, 69.0, 264.5)
+[13:09:35] [Server thread/INFO]: Gage lost connection: Disconnected
+[13:09:35] [Server thread/INFO]: Gage left the game.
+[13:09:41] [Thread-24/INFO]: UUID of player Gage is bd132ed1-e623-37f6-be15-f8477cb0e962
+[13:09:41] [Server thread/INFO]: Gage[/[0:0:0:0:0:0:0:1]:49808] logged in with entity id 399282 at ([world]-30.49616669063392, 69.0, 264.93019426010096)
+[13:09:42] [Server thread/WARN]: Bolt moved wrongly!
+[13:09:42] [Server thread/INFO]: Gage lost connection: Disconnected
+[13:09:42] [Server thread/INFO]: Gage left the game.
+[13:10:10] [Thread-25/INFO]: UUID of player Goon_Alot is 19794657-a75d-3500-8484-1a9784116734
+[13:10:11] [Server thread/INFO]: Goon_Alot[/[0:0:0:0:0:0:0:1]:48360] logged in with entity id 413274 at ([world]1074.3921973571735, 68.0, 1276.4248244936978)
+[13:10:48] [Async Chat Thread - #1/INFO]: <JacksonStorm> my pick[m
+
+[13:10:52] [Async Chat Thread - #1/INFO]: <Goon_Alot> my nose[m
+
+[13:11:00] [Server thread/INFO]: freakbob lost connection: Disconnected
+[13:11:00] [Server thread/INFO]: freakbob left the game.
+[13:11:00] [Async Chat Thread - #1/INFO]: <Mason> who put dirt in the ores chest[m
+
+[13:11:04] [Async Chat Thread - #1/INFO]: <Goon_Alot> get ready for test guys[m
+
+[13:11:10] [Server thread/INFO]: Goon_Alot lost connection: Disconnected
+[13:11:10] [Server thread/INFO]: Goon_Alot left the game.
+[13:11:11] [Server thread/INFO]: PongMingus lost connection: Disconnected
+[13:11:11] [Server thread/INFO]: PongMingus left the game.
+[13:11:14] [Server thread/INFO]: drew lost connection: Disconnected
+[13:11:14] [Server thread/INFO]: drew left the game.
+[13:11:16] [Server thread/INFO]: TP_ lost connection: Disconnected
+[13:11:16] [Server thread/INFO]: TP_ left the game.
+[13:11:21] [Server thread/INFO]: JacksonStorm lost connection: Disconnected
+[13:11:21] [Server thread/INFO]: JacksonStorm left the game.
+[13:11:27] [Server thread/INFO]: Mason lost connection: Disconnected
+[13:11:27] [Server thread/INFO]: Mason left the game.
+[13:11:51] [Server thread/INFO]: Bolt lost connection: Disconnected
+[13:11:51] [Server thread/INFO]: Bolt left the game.
+[13:14:32] [Thread-26/INFO]: UUID of player freakbob is f21fd111-17cc-3dc8-ae10-2963b3de0dd3
+[13:14:32] [Server thread/INFO]: freakbob[/[0:0:0:0:0:0:0:1]:36294] logged in with entity id 472051 at ([world]1016.367871997883, 64.0, -1449.5200417910382)
+[13:14:57] [Async Chat Thread - #2/INFO]: <freakbob> tengo primero persona completicion[m
+
+[13:15:06] [Thread-27/INFO]: UUID of player Mason is c12cc45b-0377-32a5-8fa0-d0f7cc95b22c
+[13:15:06] [Server thread/INFO]: Mason[/[0:0:0:0:0:0:0:1]:54624] logged in with entity id 475812 at ([world]-21.893784822011977, 64.0, 202.04868645097244)
+[13:15:23] [Server thread/INFO]: Given [Acacia Wood] * 1 to freakbob
+[13:15:31] [Server thread/INFO]: Given [Jungle Wood] * 1 to freakbob
+[13:15:38] [Server thread/INFO]: Given [Dark Oak Wood] * 1 to freakbob
+[13:15:43] [Server thread/INFO]: Given [Oak Wood] * 1 to freakbob
+[13:15:56] [Server thread/INFO]: Given [Oak Wood] * 1 to freakbob
+[13:16:03] [Server thread/INFO]: Given [Oak Wood] * 1 to freakbob
+[13:16:24] [Thread-28/INFO]: UUID of player JacksonStorm is d95ee2be-2441-36e4-b9b4-6508b52df6e4
+[13:16:24] [Server thread/INFO]: JacksonStorm[/[0:0:0:0:0:0:0:1]:46014] logged in with entity id 490763 at ([world]-21.771977487377384, 64.0, 203.31325355519888)
+[13:16:29] [Async Chat Thread - #3/INFO]: <freakbob> tengo primero persona completicion[m
+
+[13:16:30] [Server thread/INFO]: Mason issued server command: /home home
+[13:16:35] [Thread-29/INFO]: UUID of player Bolt is fe4e1a29-be4f-35e1-a6bd-214391343b87
+[13:16:35] [Server thread/INFO]: Bolt[/[0:0:0:0:0:0:0:1]:49320] logged in with entity id 494085 at ([world]177.27384088757006, 66.0, 276.5451503472709)
+[13:16:36] [Async Chat Thread - #3/INFO]: <freakbob> muahaa[m
+
+[13:16:40] [Async Chat Thread - #3/INFO]: <Mason> que[m
+
+[13:16:46] [Async Chat Thread - #3/INFO]: <Bolt> mason[m
+
+[13:16:46] [Async Chat Thread - #3/INFO]: <freakbob> i was first one done[m
+
+[13:16:49] [Async Chat Thread - #3/INFO]: <Mason> ah[m
+
+[13:16:57] [Thread-30/INFO]: UUID of player TP_ is 6a99ffff-622c-38de-a842-f026f32e3b2e
+[13:16:57] [Server thread/INFO]: TP_[/[0:0:0:0:0:0:0:1]:53532] logged in with entity id 502030 at ([world]1009.7682670193877, 63.0, -1408.3526430385546)
+[13:17:03] [Async Chat Thread - #3/INFO]: <freakbob> muy aburrido[m
+
+[13:17:10] [Async Chat Thread - #3/INFO]: <JacksonStorm> we need more diamonds[m
+
+[13:17:13] [Async Chat Thread - #3/INFO]: <Mason> ok[m
+
+[13:17:17] [Async Chat Thread - #3/INFO]: <Mason> gimme some[m
+
+[13:17:24] [Thread-31/INFO]: UUID of player PongMingus is 3770f695-f0b5-3ef3-b08a-4c9cfb37e7c6
+[13:17:24] [Server thread/INFO]: PongMingus[/[0:0:0:0:0:0:0:1]:58730] logged in with entity id 512004 at ([world]-1082.058094426493, 77.0, 1799.3248167723218)
+[13:17:31] [Server thread/INFO]: freakbob issued server command: /tpa pongmingus
+[13:17:44] [Server thread/INFO]: PongMingus issued server command: /tpdeny
+[13:17:49] [Async Chat Thread - #3/INFO]: <freakbob> erm[m
+
+[13:18:02] [Thread-32/INFO]: UUID of player Goon_Alot is 19794657-a75d-3500-8484-1a9784116734
+[13:18:02] [Server thread/INFO]: Goon_Alot[/[0:0:0:0:0:0:0:1]:32878] logged in with entity id 530967 at ([world]1055.5441520001843, 68.0, 1235.1641111979186)
+[13:18:37] [Async Chat Thread - #3/INFO]: <Mason> i just got a maxed silk touch pickaxe[m
+
+[13:18:46] [Async Chat Thread - #3/INFO]: <Bolt> naughty boy[m
+
+[13:18:49] [Server thread/INFO]: Mason lost connection: Disconnected
+[13:18:49] [Server thread/INFO]: Mason left the game.
+[13:18:49] [Async Chat Thread - #3/INFO]: <freakbob> i have maxed fortune pic haha[m
+
+[13:18:54] [Server thread/INFO]: freakbob lost connection: Disconnected
+[13:18:54] [Server thread/INFO]: freakbob left the game.
+[13:18:55] [Server thread/INFO]: PongMingus lost connection: Disconnected
+[13:18:55] [Server thread/INFO]: PongMingus left the game.
+[13:19:01] [Server thread/INFO]: Goon_Alot lost connection: Disconnected
+[13:19:01] [Server thread/INFO]: Goon_Alot left the game.
+[13:19:14] [Server thread/INFO]: JacksonStorm lost connection: Disconnected
+[13:19:14] [Server thread/INFO]: JacksonStorm left the game.
+[13:19:31] [Server thread/INFO]: Bolt lost connection: Disconnected
+[13:19:31] [Server thread/INFO]: Bolt left the game.
+[13:19:32] [Server thread/INFO]: TP_ lost connection: Disconnected
+[13:19:32] [Server thread/INFO]: TP_ left the game.
+[13:21:54] [Thread-34/INFO]: UUID of player freakbob is f21fd111-17cc-3dc8-ae10-2963b3de0dd3
+[13:21:54] [Server thread/INFO]: freakbob[/[0:0:0:0:0:0:0:1]:37912] logged in with entity id 594374 at ([world]1017.6513487598666, 64.0, -1463.3716106620616)
+[13:22:09] [Thread-35/INFO]: UUID of player JacksonStorm is d95ee2be-2441-36e4-b9b4-6508b52df6e4
+[13:22:09] [Server thread/INFO]: JacksonStorm[/[0:0:0:0:0:0:0:1]:55914] logged in with entity id 597982 at ([world_nether]-21.927033790165773, 46.0, 60.24580375589649)
+[13:22:17] [Thread-36/INFO]: UUID of player Bolt is fe4e1a29-be4f-35e1-a6bd-214391343b87
+[13:22:17] [Server thread/INFO]: Bolt[/[0:0:0:0:0:0:0:1]:60960] logged in with entity id 600019 at ([world]-67.05512059238201, 72.0, 257.30000001192093)
+[13:22:18] [Thread-37/INFO]: UUID of player Mason is c12cc45b-0377-32a5-8fa0-d0f7cc95b22c
+[13:22:18] [Server thread/INFO]: Mason[/[0:0:0:0:0:0:0:1]:60962] logged in with entity id 600424 at ([world]-20.983161354205123, 64.0, 206.5213738644466)
+[13:22:22] [Thread-38/INFO]: UUID of player Goon_Alot is 19794657-a75d-3500-8484-1a9784116734
+[13:22:22] [Server thread/INFO]: Goon_Alot[/[0:0:0:0:0:0:0:1]:54302] logged in with entity id 602386 at ([world]1055.018040678052, 68.0, 1250.05001073968)
+[13:22:29] [Async Chat Thread - #4/INFO]: <Mason> camden what are you digging[m
+
+[13:22:34] [Async Chat Thread - #4/INFO]: <Goon_Alot> ing[m
+
+[13:22:34] [Async Chat Thread - #4/INFO]: <freakbob> fighting arena[m
+
+[13:22:39] [Async Chat Thread - #4/INFO]: <Mason> oh my[m
+
+[13:23:08] [Thread-39/INFO]: UUID of player drew is 21b8b8c2-05e0-3fff-ad32-ec3a17f792db
+[13:23:08] [Server thread/INFO]: drew[/[0:0:0:0:0:0:0:1]:47426] logged in with entity id 628021 at ([world]-22.935745163698016, 64.0, 210.79429270988587)
+[13:24:23] [Async Chat Thread - #5/INFO]: <freakbob> omg bruh[m
+
+[13:24:30] [Server thread/INFO]: drew lost connection: Disconnected
+[13:24:30] [Server thread/INFO]: drew left the game.
+[13:24:31] [Async Chat Thread - #5/INFO]: <Goon_Alot> bros trying to get us off the games[m
+
+[13:24:37] [Server thread/INFO]: JacksonStorm lost connection: Disconnected
+[13:24:37] [Server thread/INFO]: JacksonStorm left the game.
+[13:24:40] [Async Chat Thread - #5/INFO]: <Bolt> its not gonna work[m
+
+[13:25:53] [Async Chat Thread - #6/INFO]: <freakbob> harlem was definitely NOT nice[m
+
+[13:26:04] [Async Chat Thread - #6/INFO]: <freakbob> they just saying it was amazing bc it was full of ninjas[m
+
+[13:26:05] [Thread-40/INFO]: UUID of player JacksonStorm is d95ee2be-2441-36e4-b9b4-6508b52df6e4
+[13:26:05] [Server thread/INFO]: JacksonStorm[/[0:0:0:0:0:0:0:1]:36550] logged in with entity id 738036 at ([world_nether]-58.625428764738714, 31.0, -22.699999988079075)
+[13:26:22] [Thread-41/INFO]: UUID of player drew is 21b8b8c2-05e0-3fff-ad32-ec3a17f792db
+[13:26:22] [Server thread/INFO]: drew[/[0:0:0:0:0:0:0:1]:33810] logged in with entity id 748260 at ([world]122.69999998807907, 68.0, 208.4939510067717)
+[13:27:16] [Server thread/INFO]: Goon_Alot lost connection: Disconnected
+[13:27:16] [Server thread/INFO]: Goon_Alot left the game.
+[13:27:28] [Server thread/INFO]: drew lost connection: Disconnected
+[13:27:28] [Server thread/INFO]: drew left the game.
+[13:27:44] [Server thread/INFO]: freakbob issued server command: /
+[13:28:47] [Server thread/INFO]: JacksonStorm lost connection: Disconnected
+[13:28:47] [Server thread/INFO]: JacksonStorm left the game.
+[13:29:51] [Async Chat Thread - #7/INFO]: <Bolt> alright we are gonna have a temporary chromebook lid closure[m
+
+[13:29:57] [Async Chat Thread - #7/INFO]: <freakbob> better not[m
+
+[13:30:00] [Async Chat Thread - #7/INFO]: <freakbob> answer question[m
+
+[13:30:08] [Async Chat Thread - #7/INFO]: <Mason> the chromebook is helping me[m
+
+[13:30:13] [Server thread/INFO]: MK_ has just earned the achievement [Time to Strike!]
+[13:31:46] [Server thread/INFO]: Bolt issued server command: /tpa Mason
+[13:31:49] [Server thread/INFO]: Mason issued server command: /tpaccept
+[13:32:02] [Thread-42/INFO]: UUID of player JacksonStorm is d95ee2be-2441-36e4-b9b4-6508b52df6e4
+[13:32:02] [Server thread/INFO]: JacksonStorm[/[0:0:0:0:0:0:0:1]:56750] logged in with entity id 911496 at ([world_nether]-151.3379718349551, 43.0, -67.95783308888159)
+[13:34:30] [Server thread/INFO]: Bolt issued server command: /home home
+[13:34:34] [Server thread/INFO]: Bolt issued server command: /home house
+[13:35:22] [Server thread/INFO]: JacksonStorm issued server command: /tpa home
+[13:35:34] [Server thread/INFO]: JacksonStorm issued server command: /tpa johnsonjames
+[13:35:40] [Server thread/INFO]: JacksonStorm issued server command: /tpa mason
+[13:35:43] [Server thread/INFO]: Mason issued server command: /tpaccept
+[13:37:39] [Server thread/INFO]: Bolt issued server command: /home house
+[13:39:44] [Server thread/INFO]: freakbob issued server command: /home chests
+[13:40:00] [Server thread/INFO]: freakbob issued server command: /home house
+[13:40:29] [Async Chat Thread - #8/INFO]: <MK_> hwy is anybody on that wants to search this massivce mine chaft with me[m
+
+[13:40:44] [Async Chat Thread - #8/INFO]: <freakbob> inna bit i will[m
+
+[13:41:35] [Server thread/INFO]: freakbob issued server command: /
+[13:41:39] [Server thread/INFO]: freakbob issued server command: /home house
+[13:43:24] [Server thread/INFO]: Bolt lost connection: Disconnected
+[13:43:24] [Server thread/INFO]: Bolt left the game.
+[13:43:28] [Server thread/INFO]: Mason issued server command: /home home
+[13:43:45] [Thread-43/INFO]: UUID of player Bolt is fe4e1a29-be4f-35e1-a6bd-214391343b87
+[13:43:45] [Server thread/INFO]: Bolt[/[0:0:0:0:0:0:0:1]:43480] logged in with entity id 1259469 at ([world]-148.18019089422495, 66.0, 232.85425063583637)
+[13:44:07] [Async Chat Thread - #9/INFO]: <Mason> jack i need your pickaxe again[m
+
+[13:44:32] [Server thread/INFO]: Mason issued server command: /tpa JacksonStorm
+[13:44:40] [Server thread/INFO]: JacksonStorm issued server command: /accept
+[13:44:45] [Server thread/INFO]: freakbob issued server command: /home house
+[13:45:19] [Async Chat Thread - #10/INFO]: <Mason> lemme borrow pickaxe[m
+
+[13:45:26] [Server thread/INFO]: Mason issued server command: /home home
+[13:45:34] [Async Chat Thread - #10/INFO]: <Mason> ill leave it in the chest when im done[m
+
+[13:48:13] [Server thread/INFO]: MK_ lost connection: Disconnected
+[13:48:13] [Server thread/INFO]: MK_ left the game.
+[13:49:04] [Server thread/INFO]: Mason issued server command: /tpa JacksonStorm
+[13:49:10] [Server thread/INFO]: JacksonStorm issued server command: /accept
+[13:49:16] [Server thread/INFO]: Bolt lost connection: Disconnected
+[13:49:16] [Server thread/INFO]: Bolt left the game.
+[13:49:27] [Async Chat Thread - #11/INFO]: <Mason> ty[m
+
+[13:49:29] [Server thread/INFO]: Mason lost connection: Disconnected
+[13:49:29] [Server thread/INFO]: Mason left the game.
+[13:49:31] [Server thread/INFO]: freakbob lost connection: Disconnected
+[13:49:31] [Server thread/INFO]: freakbob left the game.
+[13:49:37] [Server thread/INFO]: JacksonStorm lost connection: Disconnected
+[13:49:37] [Server thread/INFO]: JacksonStorm left the game.
+[13:52:58] [Thread-45/INFO]: UUID of player TP_ is 6a99ffff-622c-38de-a842-f026f32e3b2e
+[13:52:58] [Server thread/INFO]: TP_[/[0:0:0:0:0:0:0:1]:47348] logged in with entity id 1420154 at ([world]1030.7685785399865, 64.0, -1427.7073883018475)
+[13:53:08] [Thread-46/INFO]: UUID of player drew is 21b8b8c2-05e0-3fff-ad32-ec3a17f792db
+[13:53:08] [Server thread/INFO]: drew[/[0:0:0:0:0:0:0:1]:55398] logged in with entity id 1421240 at ([world]108.90190387016663, 68.0, 208.65914346223005)
+[13:53:29] [Thread-47/INFO]: UUID of player Bolt is fe4e1a29-be4f-35e1-a6bd-214391343b87
+[13:53:29] [Server thread/INFO]: Bolt[/[0:0:0:0:0:0:0:1]:48284] logged in with entity id 1425247 at ([world]-144.3699973640443, 72.0, 227.2913079130228)
+[13:55:18] [Thread-48/INFO]: UUID of player Charv12 is 900fd882-86a7-3a42-a020-ba61f746e93c
+[13:55:18] [Server thread/INFO]: Charv12[/[0:0:0:0:0:0:0:1]:48184] logged in with entity id 1455017 at ([world]-92.63590528303367, 68.0, 257.06617522914166)
+[13:55:22] [Thread-49/INFO]: UUID of player PongMingus is 3770f695-f0b5-3ef3-b08a-4c9cfb37e7c6
+[13:55:22] [Server thread/INFO]: PongMingus[/[0:0:0:0:0:0:0:1]:37354] logged in with entity id 1456448 at ([world]-1079.4349181543298, 72.0, 1802.8890499234885)
+[13:57:15] [Server thread/INFO]: TP_ lost connection: Disconnected
+[13:57:15] [Server thread/INFO]: TP_ left the game.
+[14:13:07] [Server thread/INFO]: Bolt issued server command: /tpa charv12
+[14:14:22] [Server thread/INFO]: Charv12 burned to death
+[14:14:37] [Server thread/INFO]: Charv12 issued server command: /back
+[14:14:42] [Async Chat Thread - #12/INFO]: <Bolt> bro keep inventory is turned off[m
+
+[14:20:52] [Server thread/INFO]: PongMingus issued server command: /home house
+[14:27:13] [Server thread/WARN]: drew moved wrongly!
+[14:27:14] [Server thread/WARN]: drew moved wrongly!
+[14:30:04] [Server thread/INFO]: Bolt issued server command: /tpa Charv12
+[14:30:14] [Server thread/INFO]: Bolt issued server command: /tpcancel Charv12
+[14:31:44] [Server thread/WARN]: drew moved wrongly!
+[14:32:04] [Server thread/INFO]: Bolt issued server command: /tp home house
+[14:32:13] [Server thread/INFO]: Bolt issued server command: /home hosue
+[14:32:17] [Server thread/INFO]: Bolt issued server command: /home house
+[14:32:24] [Server thread/INFO]: drew issued server command: /sethome dirt
+[14:32:24] [Server thread/INFO]: Bolt issued server command: /home house
+[14:32:31] [Server thread/INFO]: drew issued server command: /sethome home
+[14:32:35] [Server thread/INFO]: drew issued server command: /home home
+[14:33:12] [Server thread/INFO]: Bolt has just earned the achievement [Time to Mine!]
+[14:33:12] [Server thread/INFO]: Bolt has just earned the achievement [Getting an Upgrade]
+[14:33:22] [Async Chat Thread - #13/INFO]: <drew> does anyone have a lot of dirt[m
+
+[14:39:46] [Server thread/INFO]: Bolt issued server command: /home homes
+[14:39:59] [Server thread/INFO]: Bolt issued server command: /home house
+[14:40:12] [Server thread/INFO]: Bolt lost connection: Disconnected
+[14:40:12] [Server thread/INFO]: Bolt left the game.
+[14:40:15] [Thread-51/INFO]: UUID of player Bolt is fe4e1a29-be4f-35e1-a6bd-214391343b87
+[14:40:15] [Server thread/INFO]: Bolt[/[0:0:0:0:0:0:0:1]:56904] logged in with entity id 2315969 at ([world]-148.34331584532848, 65.875, 232.26473724280095)
+[14:40:19] [Server thread/INFO]: Bolt lost connection: Disconnected
+[14:40:19] [Server thread/INFO]: Bolt left the game.
+[14:40:49] [Thread-52/INFO]: UUID of player Bolt is fe4e1a29-be4f-35e1-a6bd-214391343b87
+[14:40:50] [Server thread/INFO]: Bolt[/[0:0:0:0:0:0:0:1]:39928] logged in with entity id 2324864 at ([world]-148.34331584532848, 65.875, 232.26473724280095)
+[14:41:19] [Server thread/INFO]: Charv12 issued server command: /tpahome house
+[14:41:25] [Server thread/INFO]: Charv12 issued server command: /tphome house
+[14:41:29] [Server thread/INFO]: Charv12 issued server command: /tp home house
+[14:41:38] [Server thread/INFO]: Charv12 issued server command: /home house
+[14:43:57] [Server thread/INFO]: Bolt lost connection: Disconnected
+[14:43:57] [Server thread/INFO]: Bolt left the game.
+[14:44:02] [Server thread/INFO]: Charv12 lost connection: Disconnected
+[14:44:02] [Server thread/INFO]: Charv12 left the game.
+[14:44:03] [Server thread/INFO]: drew lost connection: Disconnected
+[14:44:03] [Server thread/INFO]: drew left the game.
+[14:44:04] [Server thread/INFO]: PongMingus lost connection: Disconnected
+[14:44:04] [Server thread/INFO]: PongMingus left the game.
+[14:46:57] [Thread-53/INFO]: UUID of player TP_ is 6a99ffff-622c-38de-a842-f026f32e3b2e
+[14:46:57] [Server thread/INFO]: TP_[/[0:0:0:0:0:0:0:1]:52804] logged in with entity id 2385540 at ([world]1134.7159034435952, 64.0, -1388.0936299730224)
+[14:47:21] [Thread-54/INFO]: UUID of player JacksonStorm is d95ee2be-2441-36e4-b9b4-6508b52df6e4
+[14:47:21] [Server thread/INFO]: JacksonStorm[/[0:0:0:0:0:0:0:1]:52548] logged in with entity id 2387446 at ([world]-16.707722309384124, 11.0, 131.69999998807907)
+[14:47:59] [Thread-55/INFO]: UUID of player PongMingus is 3770f695-f0b5-3ef3-b08a-4c9cfb37e7c6
+[14:47:59] [Server thread/INFO]: PongMingus[/[0:0:0:0:0:0:0:1]:42524] logged in with entity id 2395599 at ([world]-1083.0757337019068, 73.0, 1796.1566172339146)
+[14:49:41] [Server thread/INFO]: PongMingus lost connection: Disconnected
+[14:49:41] [Server thread/INFO]: PongMingus left the game.
+[14:49:48] [Server thread/INFO]: JacksonStorm lost connection: Disconnected
+[14:49:48] [Server thread/INFO]: JacksonStorm left the game.
+[14:49:55] [Thread-56/INFO]: UUID of player MK_ is d4d6ecd4-71a9-35bc-a611-24a169067c8f
+[14:49:55] [Server thread/INFO]: MK_[/[0:0:0:0:0:0:0:1]:58416] logged in with entity id 2429392 at ([world]924.3429932890554, 15.0, -1589.4432149640297)
+[14:50:24] [Thread-58/INFO]: UUID of player Goon_Alot is 19794657-a75d-3500-8484-1a9784116734
+[14:50:24] [Server thread/INFO]: Goon_Alot[/[0:0:0:0:0:0:0:1]:36270] logged in with entity id 2435312 at ([world]1090.186220811286, 68.0, 1290.4422312262961)
+[14:50:29] [Server thread/INFO]: Goon_Alot issued server command: /l AG03302015
+[14:54:17] [Server thread/INFO]: TP_ has just earned the achievement [Benchmarking]
+[14:55:45] [Server thread/INFO]: MK_ tried to swim in lava
+[14:55:49] [Async Chat Thread - #14/INFO]: <Goon_Alot> dumbie[m
+
+[14:56:21] [Server thread/INFO]: MK_ issued server command: /simpletpa
+[14:57:25] [Async Chat Thread - #15/INFO]: <MK_> tristan can i tp to you[m
+
+[14:57:28] [Server thread/INFO]: MK_ issued server command: /back
+[14:57:39] [Server thread/INFO]: MK_ burned to death
+[14:57:43] [Async Chat Thread - #15/INFO]: <Goon_Alot> dumbie[m
+
+[14:57:51] [Server thread/INFO]: MK_ issued server command: /back
+[14:59:31] [Thread-59/INFO]: UUID of player Charv12 is 900fd882-86a7-3a42-a020-ba61f746e93c
+[14:59:31] [Server thread/INFO]: Charv12[/[0:0:0:0:0:0:0:1]:52456] logged in with entity id 2598093 at ([world]-30.101017847852496, 64.0, 216.86973436691545)
+[15:01:50] [Server thread/INFO]: Charv12 issued server command: /home house
+[15:02:45] [Server thread/INFO]: TP_ issued server command: /sethome chicken
+[15:02:50] [Server thread/INFO]: TP_ issued server command: /home house
+[15:09:13] [Server thread/INFO]: Charv12 issued server command: /home house
+[15:10:54] [Async Chat Thread - #16/INFO]: <Charv12> how do u dis enchant stuff in this version[m
+
+[15:10:59] [Async Chat Thread - #16/INFO]: <Goon_Alot> cant[m
+
+[15:11:14] [Async Chat Thread - #16/INFO]: <Charv12> darn it[m
+
+[15:14:04] [Server thread/INFO]: Charv12 lost connection: Disconnected
+[15:14:04] [Server thread/INFO]: Charv12 left the game.
+[15:14:27] [Async Chat Thread - #17/INFO]: <MK_> get out my cave[m
+
+[15:14:35] [Async Chat Thread - #17/INFO]: <TP_> no[m
+
+[15:14:53] [Thread-60/INFO]: UUID of player JacksonStorm is d95ee2be-2441-36e4-b9b4-6508b52df6e4
+[15:14:53] [Server thread/INFO]: JacksonStorm[/[0:0:0:0:0:0:0:1]:35702] logged in with entity id 2909326 at ([world]-24.239346679432643, 64.0, 212.73064287963857)
+[15:15:22] [Server thread/INFO]: JacksonStorm lost connection: Disconnected
+[15:15:22] [Server thread/INFO]: JacksonStorm left the game.
+[15:15:27] [Async Chat Thread - #17/INFO]: <TP_> miles[m
+
+[15:15:31] [Async Chat Thread - #17/INFO]: <MK_> what[m
+
+[15:15:39] [Async Chat Thread - #17/INFO]: <TP_> your cave got lot diamonds[m
+
+[15:15:45] [Async Chat Thread - #17/INFO]: <TP_> i foun 25 so far[m
+
+[15:15:55] [Async Chat Thread - #17/INFO]: <MK_> i aint found any[m
+
+[15:16:08] [Async Chat Thread - #17/INFO]: <Goon_Alot> feels good to never have to deal with black people stealing my diamonds[m
+
+[15:16:48] [Async Chat Thread - #17/INFO]: <MK_> bro i dont need any but i did find a saddle[m
+
+[15:16:57] [Async Chat Thread - #17/INFO]: <TP_> lets trade[m
+
+[15:17:03] [Async Chat Thread - #17/INFO]: <MK_> what[m
+
+[15:17:13] [Async Chat Thread - #17/INFO]: <TP_> what you want for saddle[m
+
+[15:17:23] [Async Chat Thread - #17/INFO]: <MK_> nah saddles all mine bud[m
+
+[15:17:32] [Async Chat Thread - #17/INFO]: <TP_> ill kill you[m
+
+[15:17:37] [Async Chat Thread - #17/INFO]: <MK_> do it[m
+
+[15:17:51] [Server thread/INFO]: MK_ was slain by TP_
+[15:18:02] [Server thread/INFO]: MK_ issued server command: /back
+[15:18:10] [Async Chat Thread - #17/INFO]: <Goon_Alot> and i dont have to deal with black people killing me[m
+
+[15:20:17] [Server thread/INFO]: MK_ tried to swim in lava
+[15:20:21] [Server thread/INFO]: MK_ issued server command: /back
+[15:20:23] [Async Chat Thread - #18/INFO]: <Goon_Alot> miles you stink[m
+
+[15:20:33] [Async Chat Thread - #18/INFO]: <MK_> i know[m
+
+[15:20:39] [Server thread/INFO]: MK_ burned to death
+[15:20:48] [Server thread/INFO]: MK_ issued server command: /back
+[15:21:01] [Async Chat Thread - #18/INFO]: <MK_> shift key dosent like working[m
+
+[15:21:19] [Server thread/INFO]: TP_ issued server command: /home house
+[15:21:27] [Async Chat Thread - #18/INFO]: <Goon_Alot> i have yet to build a house[m
+
+[15:21:30] [Async Chat Thread - #18/INFO]: <Goon_Alot> i've just been landscaping[m
+
+[15:21:33] [Async Chat Thread - #18/INFO]: <Goon_Alot> this whole time[m
+
+[15:21:49] [Async Chat Thread - #18/INFO]: <MK_> tristian do you have a foutubune pick[m
+
+[15:22:00] [Async Chat Thread - #18/INFO]: <Goon_Alot> foutubune pick[m
+
+[15:22:00] [Async Chat Thread - #18/INFO]: <TP_> a what[m
+
+[15:22:11] [Async Chat Thread - #18/INFO]: <MK_> fortane[m
+
+[15:22:14] [Async Chat Thread - #18/INFO]: <TP_> a fortune pick[m
+
+[15:22:16] [Async Chat Thread - #18/INFO]: <Goon_Alot> a fortane[m
+
+[15:22:25] [Async Chat Thread - #18/INFO]: <Goon_Alot> no a fortane[m
+
+[15:22:25] [Async Chat Thread - #18/INFO]: <TP_> what that[m
+
+[15:22:30] [Async Chat Thread - #18/INFO]: <MK_> ok bro whatever do you have it[m
+
+[15:22:49] [Async Chat Thread - #18/INFO]: <MK_> just come here[m
+
+[15:22:51] [Async Chat Thread - #18/INFO]: <TP_> yes i do[m
+
+[15:23:03] [Server thread/INFO]: TP_ issued server command: /tpa MK_
+[15:23:12] [Server thread/INFO]: MK_ issued server command: /tpaaccept
+[15:23:20] [Server thread/INFO]: MK_ issued server command: /accept
+[15:23:30] [Server thread/INFO]: TP_ issued server command: /
+[15:23:55] [Async Chat Thread - #19/INFO]: <MK_> thanks[m
+
+[15:24:32] [Async Chat Thread - #19/INFO]: <TP_> why dont you use your TNT to mine[m
+
+[15:24:41] [Async Chat Thread - #19/INFO]: <Goon_Alot> blows up ore[m
+
+[15:24:48] [Async Chat Thread - #19/INFO]: <MK_> i only have 9 piececes anyway[m
+
+[15:31:02] [Server thread/INFO]: TP_ issued server command: /hoem house
+[15:31:09] [Server thread/INFO]: TP_ issued server command: /home house
+[15:32:14] [Server thread/INFO]: TP_ issued server command: /home chicken
+[15:33:04] [Thread-62/INFO]: UUID of player Charv12 is 900fd882-86a7-3a42-a020-ba61f746e93c
+[15:33:04] [Server thread/INFO]: Charv12[/[0:0:0:0:0:0:0:1]:38040] logged in with entity id 3135276 at ([world]-107.90828492852783, 64.0, 270.4965266490512)
+[15:33:33] [Server thread/INFO]: Goon_Alot has just earned the achievement [Cow Tipper]
+[15:33:34] [Server thread/INFO]: Charv12 lost connection: Disconnected
+[15:33:34] [Server thread/INFO]: Charv12 left the game.
+[15:34:09] [Thread-63/INFO]: UUID of player JacksonStorm is d95ee2be-2441-36e4-b9b4-6508b52df6e4
+[15:34:09] [Server thread/INFO]: JacksonStorm[/[0:0:0:0:0:0:0:1]:58548] logged in with entity id 3153784 at ([world]-22.108056709005258, 64.0, 205.16807348816187)
+[15:34:37] [Server thread/INFO]: JacksonStorm lost connection: Disconnected
+[15:34:37] [Server thread/INFO]: JacksonStorm left the game.
+[15:35:21] [Server thread/INFO]: TP_ fell from a high place
+[15:35:36] [Server thread/INFO]: TP_ issued server command: /home checken
+[15:35:48] [Server thread/INFO]: TP_ issued server command: /home chekcen
+[15:35:55] [Server thread/INFO]: TP_ issued server command: /home chicken
+[15:36:45] [Server thread/INFO]: TP_ lost connection: Disconnected
+[15:36:45] [Server thread/INFO]: TP_ left the game.
+[15:36:56] [Server thread/INFO]: Goon_Alot lost connection: Disconnected
+[15:36:56] [Server thread/INFO]: Goon_Alot left the game.
+[15:37:03] [Server thread/INFO]: MK_ lost connection: Disconnected
+[15:37:03] [Server thread/INFO]: MK_ left the game.
+[15:40:16] [Thread-64/INFO]: UUID of player JacksonStorm is d95ee2be-2441-36e4-b9b4-6508b52df6e4
+[15:40:16] [Server thread/INFO]: JacksonStorm[/[0:0:0:0:0:0:0:1]:58652] logged in with entity id 3196949 at ([world]-33.56108732319773, 67.0, 210.4206330258841)
+[15:41:41] [Thread-65/INFO]: UUID of player drew is 21b8b8c2-05e0-3fff-ad32-ec3a17f792db
+[15:41:41] [Server thread/INFO]: drew[/[0:0:0:0:0:0:0:1]:34174] logged in with entity id 3206589 at ([world]46.49559019778148, 69.0, 207.91810033893603)
+[15:41:53] [Thread-66/INFO]: UUID of player MK_ is d4d6ecd4-71a9-35bc-a611-24a169067c8f
+[15:41:53] [Server thread/INFO]: MK_[/[0:0:0:0:0:0:0:1]:43708] logged in with entity id 3208703 at ([world]993.1561986398505, 64.0, -1442.4810396528555)
+[15:42:44] [Server thread/INFO]: drew issued server command: /tpa JacksonStorm
+[15:42:55] [Server thread/INFO]: JacksonStorm issued server command: /tpaccept
+[15:43:50] [Async Chat Thread - #20/INFO]: <drew> do you got any dirt on you[m
+
+[15:44:05] [Async Chat Thread - #20/INFO]: <JacksonStorm> yes[m
+
+[15:44:16] [Async Chat Thread - #20/INFO]: <drew> give[m
+
+[15:45:24] [Async Chat Thread - #21/INFO]: <JacksonStorm> we need netherrack[m
+
+[15:45:49] [Server thread/INFO]: drew lost connection: Disconnected
+[15:45:49] [Server thread/INFO]: drew left the game.
+[15:46:21] [Server thread/INFO]: MK_ has just earned the achievement [Cow Tipper]
+[15:46:24] [Thread-67/INFO]: UUID of player drew is 21b8b8c2-05e0-3fff-ad32-ec3a17f792db
+[15:46:24] [Server thread/INFO]: drew[/[0:0:0:0:0:0:0:1]:45926] logged in with entity id 3277131 at ([world]-21.01427877594667, 64.0, 218.36550087429515)
+[15:46:48] [Async Chat Thread - #22/INFO]: <drew> miles can i have all of your dirt[m
+
+[15:46:59] [Async Chat Thread - #22/INFO]: <MK_> sure[m
+
+[15:47:03] [Async Chat Thread - #22/INFO]: <drew> ok[m
+
+[15:47:11] [Server thread/INFO]: drew issued server command: /tpa MK_
+[15:47:17] [Server thread/INFO]: MK_ issued server command: /accept
+[15:47:55] [Server thread/INFO]: drew issued server command: /sethome gang
+[15:49:20] [Async Chat Thread - #23/INFO]: <drew> im just taking dirt for my pryamid[m
+
+[15:50:44] [Server thread/INFO]: drew issued server command: /home dirt
+[15:51:17] [Server thread/INFO]: JacksonStorm issued server command: /sethome base
+[15:51:23] [Server thread/INFO]: JacksonStorm issued server command: /home
+[15:51:29] [Server thread/INFO]: MK_ has just earned the achievement [Repopulation]
+[15:51:29] [Server thread/INFO]: JacksonStorm issued server command: /home base
+[15:54:19] [Server thread/INFO]: drew issued server command: /sethome dirt
+[15:54:43] [Server thread/INFO]: MK_ lost connection: Disconnected
+[15:54:43] [Server thread/INFO]: MK_ left the game.
+[15:55:09] [Server thread/INFO]: drew issued server command: /home gang
+[15:55:16] [Server thread/INFO]: JacksonStorm issued server command: /tpa drew
+[15:55:20] [Server thread/INFO]: drew issued server command: /tpaccept
+[15:55:30] [Server thread/INFO]: drew issued server command: /home dirt
+[15:55:34] [Server thread/INFO]: JacksonStorm issued server command: /sethome gang
+[15:56:02] [Thread-69/INFO]: UUID of player TP_ is 6a99ffff-622c-38de-a842-f026f32e3b2e
+[15:56:02] [Server thread/INFO]: TP_[/[0:0:0:0:0:0:0:1]:59794] logged in with entity id 3427056 at ([world]1127.851107318461, 65.0, -1390.1840239980718)
+[15:56:15] [Server thread/INFO]: JacksonStorm issued server command: /home base
+[16:02:15] [Async Chat Thread - #24/INFO]: <TP_> .home house[m
+
+[16:02:21] [Server thread/INFO]: TP_ issued server command: /home house
+[16:03:04] [Server thread/INFO]: TP_ issued server command: /home chicken
+[16:04:21] [Server thread/INFO]: TP_ issued server command: /home house
+[16:05:57] [Server thread/INFO]: TP_ issued server command: /home mason
+[16:09:20] [Server thread/INFO]: TP_ issued server command: /home house
+[16:11:49] [Server thread/INFO]: TP_ lost connection: Disconnected
+[16:11:49] [Server thread/INFO]: TP_ left the game.
+[16:12:10] [Server thread/INFO]: JacksonStorm issued server command: /home base
+[16:12:17] [Thread-70/INFO]: UUID of player MK_ is d4d6ecd4-71a9-35bc-a611-24a169067c8f
+[16:12:17] [Server thread/INFO]: MK_[/[0:0:0:0:0:0:0:1]:39712] logged in with entity id 3676078 at ([world]1013.8917772485345, 65.5, -1494.583711564848)
+[16:15:27] [Server thread/INFO]: JacksonStorm issued server command: /home gang
+[16:16:18] [Thread-71/INFO]: UUID of player PongMingus is 3770f695-f0b5-3ef3-b08a-4c9cfb37e7c6
+[16:16:18] [Server thread/INFO]: PongMingus[/[0:0:0:0:0:0:0:1]:55594] logged in with entity id 3745730 at ([world]-1085.7116974612072, 73.0, 1796.294486042257)
+[16:16:30] [Server thread/INFO]: JacksonStorm issued server command: /home base
+[16:17:04] [Async Chat Thread - #25/INFO]: <JacksonStorm> does anyone have netherrack[m
+
+[16:24:21] [Server thread/INFO]: MK_ has just earned the achievement [We Need to Go Deeper]
+[16:24:38] [Server thread/INFO]: drew issued server command: /home gang
+[16:24:59] [Thread-73/INFO]: UUID of player freakbob is f21fd111-17cc-3dc8-ae10-2963b3de0dd3
+[16:24:59] [Server thread/INFO]: freakbob[/[0:0:0:0:0:0:0:1]:32816] logged in with entity id 3962199 at ([world]1037.0388264758385, 64.0, -1462.2620997707158)
+[16:25:14] [Thread-74/INFO]: UUID of player TP_ is 6a99ffff-622c-38de-a842-f026f32e3b2e
+[16:25:14] [Server thread/INFO]: TP_[/[0:0:0:0:0:0:0:1]:40538] logged in with entity id 3967238 at ([world]1020.5, 65.0155550727022, -1488.5)
+[16:25:19] [Server thread/INFO]: drew issued server command: /tpa dirt
+[16:25:24] [Server thread/INFO]: drew issued server command: /home dirt
+[16:25:28] [Async Chat Thread - #26/INFO]: <MK_> whats this tunnel for[m
+
+[16:25:53] [Server thread/INFO]: PongMingus issued server command: /
+[16:26:54] [Thread-75/INFO]: UUID of player Bolt is fe4e1a29-be4f-35e1-a6bd-214391343b87
+[16:26:54] [Server thread/INFO]: Bolt[/[0:0:0:0:0:0:0:1]:42128] logged in with entity id 4006966 at ([world]-24.909731110380736, 64.0, 211.98092685350176)
+[16:27:02] [Async Chat Thread - #27/INFO]: <MK_> cmabed whats the tunnel for[m
+
+[16:27:11] [Async Chat Thread - #27/INFO]: <MK_> camden[m
+
+[16:28:07] [Server thread/INFO]: freakbob has just earned the achievement [Overkill]
+[16:28:09] [Server thread/INFO]: MK_ was burnt to a crisp whilst fighting freakbob
+[16:28:11] [Async Chat Thread - #28/INFO]: <JacksonStorm> connor you should use nether brick for your pagoda[m
+
+[16:28:19] [Async Chat Thread - #28/INFO]: <freakbob> oops[m
+
+[16:28:29] [Async Chat Thread - #28/INFO]: <MK_> whats the tunnel for[m
+
+[16:28:33] [Async Chat Thread - #28/INFO]: <Bolt> they dont have nether brick slabs tho[m
+
+[16:28:53] [Async Chat Thread - #28/INFO]: <JacksonStorm> but it looks so cool[m
+
+[16:29:06] [Async Chat Thread - #28/INFO]: <JacksonStorm> and its purple red so more color[m
+
+[16:29:26] [Async Chat Thread - #28/INFO]: <Bolt> i need the slabs tho[m
+
+[16:29:29] [Async Chat Thread - #28/INFO]: <JacksonStorm> and its easy to get[m
+
+[16:29:39] [Async Chat Thread - #28/INFO]: <MK_> cmaden whats the tunnel for[m
+
+[16:29:57] [Server thread/INFO]: drew lost connection: Disconnected
+[16:29:57] [Server thread/INFO]: drew left the game.
+[16:30:01] [Server thread/INFO]: JacksonStorm lost connection: Disconnected
+[16:30:01] [Server thread/INFO]: JacksonStorm left the game.
+[16:30:06] [Server thread/INFO]: freakbob issued server command: /tpa pongmingus
+[16:30:20] [Server thread/INFO]: Bolt lost connection: Disconnected
+[16:30:20] [Server thread/INFO]: Bolt left the game.
+[16:30:53] [Server thread/INFO]: MK_ lost connection: Disconnected
+[16:30:53] [Server thread/INFO]: MK_ left the game.
+[16:32:02] [Server thread/INFO]: PongMingus lost connection: Disconnected
+[16:32:02] [Server thread/INFO]: PongMingus left the game.
+[16:32:08] [Server thread/INFO]: TP_ lost connection: Disconnected
+[16:32:08] [Server thread/INFO]: TP_ left the game.
+[16:32:19] [Server thread/INFO]: freakbob lost connection: Disconnected
+[16:32:19] [Server thread/INFO]: freakbob left the game.
+[16:38:31] [Thread-76/INFO]: UUID of player Goon_Alot is 19794657-a75d-3500-8484-1a9784116734
+[16:38:31] [Server thread/INFO]: Goon_Alot[/[0:0:0:0:0:0:0:1]:50724] logged in with entity id 4119403 at ([world]1110.2869975024428, 68.0, 1216.6263728726929)
+[16:40:56] [Thread-77/INFO]: UUID of player Charv12 is 900fd882-86a7-3a42-a020-ba61f746e93c
+[16:40:57] [Server thread/INFO]: Charv12[/[0:0:0:0:0:0:0:1]:36386] logged in with entity id 4129373 at ([world]-49.69981973672647, 64.0, 226.5723466087775)
+[16:41:08] [Async Chat Thread - #29/INFO]: <Goon_Alot> whats up[m
+
+[16:41:12] [Async Chat Thread - #29/INFO]: <Charv12> hey[m
+
+[16:41:27] [Async Chat Thread - #29/INFO]: <Charv12> how much xp u have[m
+
+[16:41:30] [Async Chat Thread - #29/INFO]: <Goon_Alot> level 21[m
+
+[16:41:36] [Async Chat Thread - #29/INFO]: <Charv12> ok[m
+
+[16:44:02] [Server thread/INFO]: Goon_Alot issued server command: /home theranch
+[16:45:24] [Server thread/INFO]: Charv12 issued server command: /home house
+[16:46:30] [Async Chat Thread - #30/INFO]: <Charv12> i just got fortune 3 efficency 4 and unbreaking 3 in one enchantment[m
+
+[16:49:48] [Thread-78/INFO]: UUID of player freakbob is f21fd111-17cc-3dc8-ae10-2963b3de0dd3
+[16:49:48] [Server thread/INFO]: freakbob[/[0:0:0:0:0:0:0:1]:37548] logged in with entity id 4217797 at ([world]1014.5359499648191, 69.0, -1489.5916034055156)
+[16:50:37] [Server thread/INFO]: freakbob lost connection: Disconnected
+[16:50:37] [Server thread/INFO]: freakbob left the game.
+[16:52:08] [Thread-80/INFO]: UUID of player freakbob is f21fd111-17cc-3dc8-ae10-2963b3de0dd3
+[16:52:08] [Server thread/INFO]: freakbob[/[0:0:0:0:0:0:0:1]:42120] logged in with entity id 4246175 at ([world]1031.7469377210787, 64.0, -1480.3125329715315)
+[16:52:19] [Async Chat Thread - #31/INFO]: <Goon_Alot> hey did you give tyler the document?[m
+
+[16:52:22] [Async Chat Thread - #31/INFO]: <freakbob> yes[m
+
+[16:52:23] [Async Chat Thread - #31/INFO]: <Goon_Alot> and malachi too?[m
+
+[16:52:38] [Server thread/INFO]: freakbob lost connection: Disconnected
+[16:52:38] [Server thread/INFO]: freakbob left the game.
+[16:52:47] [Async Chat Thread - #31/INFO]: <Charv12> apparently not[m
+
+[16:56:13] [Server thread/INFO]: Charv12 lost connection: Disconnected
+[16:56:13] [Server thread/INFO]: Charv12 left the game.
+[16:57:43] [Thread-81/INFO]: UUID of player MK_ is d4d6ecd4-71a9-35bc-a611-24a169067c8f
+[16:57:43] [Server thread/INFO]: MK_[/[0:0:0:0:0:0:0:1]:48320] logged in with entity id 4296803 at ([world]1028.9579675625118, 64.0, -1453.134330697427)
+[17:03:06] [Async Chat Thread - #32/INFO]: <Goon_Alot> g[m
+
+[17:04:01] [Thread-82/INFO]: UUID of player JacksonStorm is d95ee2be-2441-36e4-b9b4-6508b52df6e4
+[17:04:01] [Server thread/INFO]: JacksonStorm[/[0:0:0:0:0:0:0:1]:35624] logged in with entity id 4368119 at ([world]-23.924096552924148, 64.0, 208.94026030789277)
+[17:04:54] [Thread-83/INFO]: UUID of player drew is 21b8b8c2-05e0-3fff-ad32-ec3a17f792db
+[17:04:54] [Server thread/INFO]: drew[/[0:0:0:0:0:0:0:1]:47432] logged in with entity id 4382595 at ([world]46.28855392633444, 73.0, 200.4979177454079)
+[17:05:38] [Thread-84/INFO]: UUID of player mr_sigma is a61f03da-bf6e-345c-a9ef-b395b78b1045
+[17:05:38] [Server thread/INFO]: mr_sigma[/[0:0:0:0:0:0:0:1]:59252] logged in with entity id 4398720 at ([world]-39.5, 68.0, 251.5)
+[17:06:25] [Server thread/INFO]: mr_sigma issued server command: /tpa Goon_Alot
+[17:06:25] [Thread-85/INFO]: UUID of player Mason is c12cc45b-0377-32a5-8fa0-d0f7cc95b22c
+[17:06:25] [Server thread/INFO]: Mason[/[0:0:0:0:0:0:0:1]:34308] logged in with entity id 4418213 at ([world]-16.69999998807907, 11.0, 126.89235947593373)
+[17:06:32] [Server thread/INFO]: Goon_Alot issued server command: /tpaccept
+[17:06:40] [Server thread/INFO]: Mason issued server command: /home home
+[17:06:46] [Server thread/INFO]: mr_sigma issued server command: /tpa Goon_Alot
+[17:06:48] [Server thread/INFO]: Goon_Alot issued server command: /tpaccept
+[17:07:07] [Thread-86/INFO]: UUID of player Bolt is fe4e1a29-be4f-35e1-a6bd-214391343b87
+[17:07:07] [Server thread/INFO]: Bolt[/[0:0:0:0:0:0:0:1]:36738] logged in with entity id 4438387 at ([world]-31.72310107522118, 64.0, 215.54597893885685)
+[17:07:19] [Server thread/INFO]: mr_sigma issued server command: /sethome theranch
+[17:07:33] [Server thread/INFO]: mr_sigma issued server command: /home theranch
+[17:07:47] [Thread-87/INFO]: UUID of player freakbob is f21fd111-17cc-3dc8-ae10-2963b3de0dd3
+[17:07:47] [Server thread/INFO]: freakbob[/[0:0:0:0:0:0:0:1]:38914] logged in with entity id 4457397 at ([world]1016.6752073159614, 69.0, -1488.067675048545)
+[17:09:08] [Thread-88/INFO]: UUID of player TP_ is 6a99ffff-622c-38de-a842-f026f32e3b2e
+[17:09:08] [Server thread/INFO]: TP_[/[0:0:0:0:0:0:0:1]:34350] logged in with entity id 4501947 at ([world]1012.6744853814475, 69.0, -1486.7275708298814)
+[17:09:28] [Server thread/INFO]: freakbob issued server command: /home chests
+[17:10:01] [Server thread/INFO]: freakbob issued server command: /tpa drew
+[17:10:11] [Server thread/INFO]: drew issued server command: /tpaccept
+[17:10:53] [Server thread/INFO]: JacksonStorm issued server command: /tpa drew
+[17:10:54] [Async Chat Thread - #33/INFO]: <MK_> camden you turnign on mobs anytime soon[m
+
+[17:10:58] [Async Chat Thread - #33/INFO]: <freakbob> monday[m
+
+[17:11:04] [Async Chat Thread - #33/INFO]: <MK_> alr[m
+
+[17:11:07] [Server thread/INFO]: JacksonStorm issued server command: /tpa drew
+[17:11:19] [Server thread/INFO]: drew issued server command: /tpaccept
+[17:12:05] [Server thread/INFO]: Bolt issued server command: /home house
+[17:12:13] [Server thread/INFO]: Bolt issued server command: /sethome mason
+[17:12:14] [Server thread/INFO]: JacksonStorm issued server command: /home base
+[17:12:20] [Server thread/INFO]: Bolt issued server command: /home house
+[17:13:09] [Server thread/INFO]: freakbob issued server command: /home house
+[17:13:15] [Server thread/INFO]: Mason issued server command: /sethome loot
+[17:13:42] [Server thread/INFO]: Bolt issued server command: /home mason
+[17:13:50] [Async Chat Thread - #34/INFO]: <TP_> miles[m
+
+[17:13:50] [Server thread/INFO]: Mason issued server command: /home home
+[17:14:01] [Server thread/INFO]: freakbob issued server command: /tpa mr_sigmas
+[17:14:05] [Server thread/INFO]: freakbob issued server command: /tpa mr_sigma
+[17:14:12] [Async Chat Thread - #34/INFO]: <freakbob> who are you mr sigma[m
+
+[17:14:17] [Async Chat Thread - #34/INFO]: <TP_> miles[m
+
+[17:14:19] [Async Chat Thread - #34/INFO]: <Goon_Alot> malachi[m
+
+[17:14:21] [Async Chat Thread - #34/INFO]: <TP_> miles[m
+
+[17:14:22] [Async Chat Thread - #34/INFO]: <MK_> what[m
+
+[17:14:25] [Async Chat Thread - #34/INFO]: <Goon_Alot> reeder[m
+
+[17:14:29] [Async Chat Thread - #34/INFO]: <freakbob> how did u get it?[m
+
+[17:14:36] [Async Chat Thread - #34/INFO]: <TP_> miles[m
+
+[17:14:38] [Async Chat Thread - #34/INFO]: <Goon_Alot> i just typed in link for him since you ahve yet to share it[m
+
+[17:14:42] [Async Chat Thread - #34/INFO]: <MK_> what[m
+
+[17:14:43] [Async Chat Thread - #34/INFO]: <mr_sigma> you sent me the thing freakbob[m
+
+[17:14:49] [Async Chat Thread - #34/INFO]: <Goon_Alot> no he didnt[m
+
+[17:14:51] [Async Chat Thread - #34/INFO]: <TP_> give me my diamds[m
+
+[17:14:59] [Async Chat Thread - #34/INFO]: <mr_sigma> im not gonna tell anyone dont worry im not unsigma[m
+
+[17:14:59] [Server thread/INFO]: JacksonStorm issued server command: /set home diamonds
+[17:15:05] [Async Chat Thread - #34/INFO]: <freakbob> okay your fine[m
+
+[17:15:06] [Async Chat Thread - #34/INFO]: <TP_> give the back[m
+
+[17:15:07] [Async Chat Thread - #34/INFO]: <freakbob> but gage[m
+
+[17:15:08] [Async Chat Thread - #34/INFO]: <MK_> what dimonds bro someone took mine[m
+
+[17:15:13] [Async Chat Thread - #34/INFO]: <freakbob> DONT GIVE IT OUT SERIOUSLY[m
+
+[17:15:16] [Server thread/INFO]: JacksonStorm issued server command: /home base
+[17:15:27] [Async Chat Thread - #34/INFO]: <TP_> mine are gone[m
+
+[17:15:27] [Server thread/INFO]: JacksonStorm issued server command: /home diamonds
+[17:15:33] [Async Chat Thread - #34/INFO]: <MK_> so are mine[m
+
+[17:15:53] [Server thread/INFO]: Given [Ender Chest] * 1 to Mason
+[17:15:53] [Server thread/INFO]: Given [Ender Chest] * 1 to JacksonStorm
+[17:15:53] [Server thread/INFO]: Given [Ender Chest] * 1 to Bolt
+[17:15:53] [Server thread/INFO]: Given [Ender Chest] * 1 to drew
+[17:15:53] [Server thread/INFO]: Given [Ender Chest] * 1 to mr_sigma
+[17:15:53] [Server thread/INFO]: Given [Ender Chest] * 1 to Goon_Alot
+[17:15:53] [Server thread/INFO]: Given [Ender Chest] * 1 to freakbob
+[17:15:53] [Server thread/INFO]: Given [Ender Chest] * 1 to MK_
+[17:15:53] [Server thread/INFO]: Given [Ender Chest] * 1 to TP_
+[17:16:02] [Async Chat Thread - #34/INFO]: <Goon_Alot> what the hell[m
+
+[17:16:07] [Async Chat Thread - #34/INFO]: <Goon_Alot> an ender chest just appeared in my hand[m
+
+[17:16:12] [Async Chat Thread - #34/INFO]: <freakbob> yes[m
+
+[17:16:16] [Async Chat Thread - #34/INFO]: <MK_> bro whos taking dimonds[m
+
+[17:16:17] [Async Chat Thread - #34/INFO]: <Goon_Alot> why[m
+
+[17:16:18] [Async Chat Thread - #34/INFO]: <freakbob> so the stealing can STOP![m
+
+[17:16:29] [Async Chat Thread - #34/INFO]: <Goon_Alot> i dont need one cuz im not retarded[m
+
+[17:16:32] [Async Chat Thread - #34/INFO]: <drew> are are all gone too[m
+
+[17:16:34] [Async Chat Thread - #34/INFO]: <Goon_Alot> and live alone[m
+
+[17:16:41] [Async Chat Thread - #34/INFO]: <drew> ours[m
+
+[17:16:49] [Server thread/INFO]: JacksonStorm issued server command: /sethome diamonds
+[17:16:55] [Server thread/INFO]: Mason issued server command: /home home
+[17:16:55] [Server thread/INFO]: Bolt issued server command: /tpa mason
+[17:16:59] [Server thread/INFO]: JacksonStorm issued server command: /home base
+[17:17:01] [Server thread/INFO]: Mason issued server command: /tpaccept
+[17:17:03] [Server thread/INFO]: Given [Ender Chest] * 1 to TP_
+[17:17:59] [Async Chat Thread - #35/INFO]: <MK_> tristian you still have dimonds[m
+
+[17:18:07] [Server thread/INFO]: JacksonStorm issued server command: /home base
+[17:18:10] [Async Chat Thread - #35/INFO]: <TP_> i had two stacks[m
+
+[17:18:23] [Async Chat Thread - #35/INFO]: <TP_> almost 2 stacks[m
+
+[17:18:23] [Async Chat Thread - #35/INFO]: <MK_> womp[m
+
+[17:18:33] [Server thread/INFO]: Mason issued server command: /tpa Bolt
+[17:18:34] [Async Chat Thread - #35/INFO]: <TP_> why you take them[m
+
+[17:18:36] [Async Chat Thread - #35/INFO]: <MK_> i lost all 25 of mine[m
+
+[17:18:37] [Server thread/INFO]: Bolt issued server command: /tpaccept
+[17:18:45] [Async Chat Thread - #35/INFO]: <MK_> retard i dont have any[m
+
+[17:18:49] [Server thread/INFO]: Mason issued server command: /home home
+[17:19:04] [Server thread/INFO]: mr_sigma has just earned the achievement [Taking Inventory]
+[17:19:25] [Server thread/INFO]: Mason lost connection: Disconnected
+[17:19:25] [Server thread/INFO]: Mason left the game.
+[17:19:33] [Server thread/INFO]: JacksonStorm lost connection: Disconnected
+[17:19:33] [Server thread/INFO]: JacksonStorm left the game.
+[17:19:33] [Server thread/INFO]: MK_ was slain by TP_
+[17:19:51] [Server thread/INFO]: freakbob lost connection: Disconnected
+[17:19:51] [Server thread/INFO]: freakbob left the game.
+[17:20:02] [Server thread/INFO]: TP_ was slain by MK_
+[17:20:19] [Server thread/INFO]: MK_ was slain by TP_
+[17:21:03] [Server thread/INFO]: Bolt lost connection: Disconnected
+[17:21:03] [Server thread/INFO]: Bolt left the game.
+[17:21:04] [Server thread/INFO]: drew lost connection: Disconnected
+[17:21:04] [Server thread/INFO]: drew left the game.
+[17:21:09] [Server thread/INFO]: TP_ lost connection: Disconnected
+[17:21:09] [Server thread/INFO]: TP_ left the game.
+[17:23:00] [Server thread/INFO]: mr_sigma has just earned the achievement [Getting Wood]
+[17:24:26] [Server thread/WARN]: Goon_Alot moved wrongly!
+[17:27:44] [Server thread/INFO]: MK_ lost connection: Disconnected
+[17:27:44] [Server thread/INFO]: MK_ left the game.
+[17:28:38] [Server thread/INFO]: Goon_Alot lost connection: Disconnected
+[17:28:38] [Server thread/INFO]: Goon_Alot left the game.
+[17:28:41] [Server thread/INFO]: mr_sigma lost connection: Disconnected
+[17:28:41] [Server thread/INFO]: mr_sigma left the game.
+[18:05:26] [Thread-91/INFO]: UUID of player Goon_Alot is 19794657-a75d-3500-8484-1a9784116734
+[18:05:26] [Server thread/INFO]: Goon_Alot[/[0:0:0:0:0:0:0:1]:59952] logged in with entity id 4949187 at ([world]1147.8266685133947, 68.0, 1273.5768536304452)
+[18:06:03] [Thread-92/INFO]: UUID of player Bolt is fe4e1a29-be4f-35e1-a6bd-214391343b87
+[18:06:03] [Server thread/INFO]: Bolt[/[0:0:0:0:0:0:0:1]:52480] logged in with entity id 4951563 at ([world_nether]32.96862081362637, 48.0, -191.20763070630312)
+[18:06:41] [Thread-93/INFO]: UUID of player Mason is c12cc45b-0377-32a5-8fa0-d0f7cc95b22c
+[18:06:41] [Server thread/INFO]: Mason[/[0:0:0:0:0:0:0:1]:49662] logged in with entity id 4954935 at ([world]-21.105060659651475, 64.0, 209.75575200843608)
+[18:06:43] [Thread-94/INFO]: UUID of player Charv12 is 900fd882-86a7-3a42-a020-ba61f746e93c
+[18:06:43] [Server thread/INFO]: Charv12[/[0:0:0:0:0:0:0:1]:44400] logged in with entity id 4955169 at ([world]-106.9499852501069, 64.0, 274.11612241491565)
+[18:07:22] [Server thread/INFO]: Goon_Alot lost connection: Disconnected
+[18:07:22] [Server thread/INFO]: Goon_Alot left the game.
+[18:07:30] [Server thread/INFO]: Mason issued server command: /home loot
+[18:07:49] [Server thread/INFO]: Mason issued server command: /home home
+[18:08:35] [Async Chat Thread - #36/INFO]: <Charv12> johnnnnnyyy[m
+
+[18:08:37] [Server thread/INFO]: Bolt issued server command: /home mason
+[18:08:39] [Async Chat Thread - #36/INFO]: <Mason> what caleb[m
+
+[18:08:44] [Async Chat Thread - #36/INFO]: <Charv12> where at[m
+
+[18:08:50] [Async Chat Thread - #36/INFO]: <Bolt> mason[m
+
+[18:08:58] [Async Chat Thread - #36/INFO]: <Mason> home[m
+
+[18:09:03] [Async Chat Thread - #36/INFO]: <Charv12> look at this john[m
+
+[18:09:07] [Async Chat Thread - #36/INFO]: <Bolt> let me borrow a diamond[m
+
+[18:09:11] [Async Chat Thread - #36/INFO]: <Charv12> so good[m
+
+[18:09:13] [Async Chat Thread - #36/INFO]: <Mason> wowzers[m
+
+[18:09:15] [Async Chat Thread - #36/INFO]: <Charv12> one enchantment to[m
+
+[18:09:18] [Async Chat Thread - #36/INFO]: <Mason> ok[m
+
+[18:09:22] [Async Chat Thread - #36/INFO]: <Mason> hold on connor[m
+
+[18:09:26] [Server thread/INFO]: Mason issued server command: /home loot
+[18:09:37] [Async Chat Thread - #36/INFO]: <Charv12> anyone want an efficeny three pickaxe[m
+
+[18:09:38] [Server thread/INFO]: Mason issued server command: /home home
+[18:09:45] [Async Chat Thread - #36/INFO]: <Charv12> its diamond[m
+
+[18:09:54] [Async Chat Thread - #36/INFO]: <Mason> connor where you at[m
+
+[18:10:14] [Async Chat Thread - #36/INFO]: <Bolt> hold[m
+
+[18:10:27] [Server thread/INFO]: Bolt issued server command: /home mason
+[18:10:44] [Async Chat Thread - #36/INFO]: <Bolt> john[m
+
+[18:10:47] [Async Chat Thread - #36/INFO]: <Bolt> im in your house[m
+
+[18:10:48] [Async Chat Thread - #36/INFO]: <Mason> what[m
+
+[18:10:52] [Async Chat Thread - #36/INFO]: <Mason> ok im coming[m
+
+[18:10:55] [Server thread/INFO]: Mason issued server command: /home home
+[18:11:13] [Server thread/INFO]: Mason issued server command: /home loot
+[18:11:23] [Server thread/INFO]: Mason issued server command: /home home
+[18:13:17] [Thread-95/INFO]: UUID of player freakbob is f21fd111-17cc-3dc8-ae10-2963b3de0dd3
+[18:13:17] [Server thread/INFO]: freakbob[/[0:0:0:0:0:0:0:1]:41520] logged in with entity id 5040025 at ([world]1018.7745077960691, 64.0, -1488.982187402799)
+[18:14:57] [Thread-96/INFO]: UUID of player PongMingus is 3770f695-f0b5-3ef3-b08a-4c9cfb37e7c6
+[18:14:58] [Server thread/INFO]: PongMingus[/[0:0:0:0:0:0:0:1]:57422] logged in with entity id 5073978 at ([world]-1075.7954830803162, 73.0, 1800.2483876619117)
+[18:15:32] [Async Chat Thread - #37/INFO]: <freakbob> guys free day in math[m
+
+[18:15:40] [Async Chat Thread - #37/INFO]: <Bolt> awesome[m
+
+[18:15:50] [Server thread/INFO]: freakbob lost connection: Disconnected
+[18:15:50] [Server thread/INFO]: freakbob left the game.
+[18:16:08] [Async Chat Thread - #37/INFO]: <Charv12> crib update[m
+
+[18:16:09] [Async Chat Thread - #37/INFO]: <Mason> oh my[m
+
+[18:16:11] [Async Chat Thread - #37/INFO]: <Charv12> tough?[m
+
+[18:16:13] [Async Chat Thread - #37/INFO]: <Mason> no[m
+
+[18:16:18] [Async Chat Thread - #37/INFO]: <Charv12> get out[m
+
+[18:16:23] [Async Chat Thread - #37/INFO]: <Charv12> before I burn ur house[m
+
+[18:16:33] [Async Chat Thread - #37/INFO]: <Mason> theres no griefing[m
+
+[18:16:38] [Async Chat Thread - #37/INFO]: <Charv12> thats what u think[m
+
+[18:16:45] [Async Chat Thread - #37/INFO]: <Mason> camdens gonna ban you[m
+
+[18:16:55] [Async Chat Thread - #37/INFO]: <Bolt> home mason[m
+
+[18:16:58] [Async Chat Thread - #37/INFO]: <Bolt> oops[m
+
+[18:17:01] [Server thread/INFO]: Bolt issued server command: /home mason
+[18:17:02] [Async Chat Thread - #37/INFO]: <Mason> wow[m
+
+[18:17:04] [Server thread/INFO]: Mason issued server command: /home home
+[18:17:11] [Thread-97/INFO]: UUID of player Kp_ is 78974ceb-18e6-3157-b729-55ed7641f46b
+[18:17:11] [Server thread/INFO]: Kp_[/[0:0:0:0:0:0:0:1]:41016] logged in with entity id 5119321 at ([world]-33.5, 68.0, 249.5)
+[18:17:24] [Async Chat Thread - #37/INFO]: <Charv12> john get up[m
+
+[18:17:25] [Async Chat Thread - #37/INFO]: <Kp_> daddys back[m
+
+[18:17:27] [Thread-98/INFO]: UUID of player freakbob is f21fd111-17cc-3dc8-ae10-2963b3de0dd3
+[18:17:27] [Server thread/INFO]: freakbob[/[0:0:0:0:0:0:0:1]:49348] logged in with entity id 5124157 at ([world]1036.3417976386174, 50.0, -1448.527379401345)
+[18:17:33] [Server thread/INFO]: Kp_ has just earned the achievement [Taking Inventory]
+[18:17:41] [Async Chat Thread - #37/INFO]: <freakbob> welcome back kysonigga[m
+
+[18:17:54] [Async Chat Thread - #37/INFO]: <Kp_> yayy[m
+
+[18:18:36] [Server thread/INFO]: freakbob lost connection: Disconnected
+[18:18:36] [Server thread/INFO]: freakbob left the game.
+[18:20:43] [Async Chat Thread - #38/INFO]: <Charv12> where is my enderchest[m
+
+[18:22:13] [Server thread/INFO]: Bolt issued server command: /home mason
+[18:22:19] [Server thread/INFO]: Kp_ lost connection: Disconnected
+[18:22:19] [Server thread/INFO]: Kp_ left the game.
+[18:23:49] [Server thread/INFO]: Bolt issued server command: /home house
+[18:34:50] [Async Chat Thread - #39/INFO]: <Charv12> pongmingusssss[m
+
+[18:39:54] [Server thread/INFO]: Charv12 issued server command: /tpa pongmingus
+[18:40:02] [Server thread/INFO]: PongMingus issued server command: /tpdeny
+[18:40:09] [Server thread/INFO]: Mason issued server command: /tpa PongMingus
+[18:40:59] [Server thread/INFO]: Mason issued server command: /tpa PongMingus
+[18:43:42] [Server thread/INFO]: Charv12 lost connection: Disconnected
+[18:43:42] [Server thread/INFO]: Charv12 left the game.
+[18:43:49] [Thread-100/INFO]: UUID of player Charv12 is 900fd882-86a7-3a42-a020-ba61f746e93c
+[18:43:49] [Server thread/INFO]: Charv12[/[0:0:0:0:0:0:0:1]:59338] logged in with entity id 5682114 at ([world]-91.13512265374156, 65.0, 259.3000000119208)
+[18:49:02] [Server thread/INFO]: PongMingus issued server command: /home ravine
+[18:51:39] [Server thread/INFO]: PongMingus issued server command: /home house
+[18:52:12] [Server thread/INFO]: PongMingus has just earned the achievement [Hot Topic]
+[18:52:36] [Server thread/INFO]: Charv12 lost connection: Internal Exception: java.net.SocketException: Connection reset
+[18:52:36] [Server thread/INFO]: Charv12 left the game.
+[18:52:54] [Server thread/INFO]: Mason lost connection: Disconnected
+[18:52:54] [Server thread/INFO]: Mason left the game.
+[18:52:59] [Server thread/INFO]: Bolt lost connection: Disconnected
+[18:52:59] [Server thread/INFO]: Bolt left the game.
+[18:53:00] [Server thread/INFO]: PongMingus lost connection: Disconnected
+[18:53:00] [Server thread/INFO]: PongMingus left the game.
+[18:54:28] [Thread-102/INFO]: UUID of player freakbob is f21fd111-17cc-3dc8-ae10-2963b3de0dd3
+[18:54:28] [Server thread/INFO]: freakbob[/[0:0:0:0:0:0:0:1]:39250] logged in with entity id 5869912 at ([world]1036.8995051632933, 45.0, -1443.0406018557228)
+[18:54:38] [Server thread/INFO]: freakbob lost connection: Disconnected
+[18:54:38] [Server thread/INFO]: freakbob left the game.
+[19:01:47] [Thread-103/INFO]: UUID of player Goon_Alot is 19794657-a75d-3500-8484-1a9784116734
+[19:01:47] [Server thread/INFO]: Goon_Alot[/[0:0:0:0:0:0:0:1]:36322] logged in with entity id 5871148 at ([world]1106.4549240262677, 68.0, 1271.0392359295597)
+[19:02:40] [Server thread/INFO]: Goon_Alot lost connection: Disconnected
+[19:02:40] [Server thread/INFO]: Goon_Alot left the game.
+[19:05:51] [Thread-104/INFO]: UUID of player JacksonStorm is d95ee2be-2441-36e4-b9b4-6508b52df6e4
+[19:05:51] [Server thread/INFO]: JacksonStorm[/[0:0:0:0:0:0:0:1]:60818] logged in with entity id 5876586 at ([world]-104.2516665769958, 64.0, 254.778054943036)
+[19:06:00] [Thread-105/INFO]: UUID of player Goon_Alot is 19794657-a75d-3500-8484-1a9784116734
+[19:06:00] [Server thread/INFO]: Goon_Alot[/[0:0:0:0:0:0:0:1]:43806] logged in with entity id 5877457 at ([world]1132.6345339924483, 68.0, 1276.2514457733162)
+[19:06:32] [Thread-106/INFO]: UUID of player Bolt is fe4e1a29-be4f-35e1-a6bd-214391343b87
+[19:06:32] [Server thread/INFO]: Bolt[/[0:0:0:0:0:0:0:1]:47752] logged in with entity id 5883027 at ([world]-129.20075627866788, 64.0, 223.97985847484588)
+[19:06:53] [Thread-107/INFO]: UUID of player drew is 21b8b8c2-05e0-3fff-ad32-ec3a17f792db
+[19:06:53] [Server thread/INFO]: drew[/[0:0:0:0:0:0:0:1]:52664] logged in with entity id 5886468 at ([world]96.13125467030866, 77.0, 135.69999998807907)
+[19:07:07] [Server thread/INFO]: Bolt issued server command: /tpa Goon_Alot
+[19:07:15] [Server thread/INFO]: Goon_Alot issued server command: /tpaccept
+[19:07:24] [Server thread/INFO]: drew lost connection: Login timed out!
+[19:07:24] [Server thread/INFO]: drew left the game.
+[19:07:24] [Server thread/WARN]: handleDisconnection() called twice
+[19:07:29] [Thread-108/INFO]: UUID of player drew is 21b8b8c2-05e0-3fff-ad32-ec3a17f792db
+[19:07:29] [Server thread/INFO]: drew[/[0:0:0:0:0:0:0:1]:49704] logged in with entity id 5895742 at ([world]96.13125467030866, 77.0, 135.69999998807907)
+[19:07:42] [Server thread/INFO]: Goon_Alot lost connection: Disconnected
+[19:07:42] [Server thread/INFO]: Goon_Alot left the game.
+[19:08:00] [Server thread/INFO]: drew issued server command: /home gang
+[19:08:05] [Server thread/INFO]: JacksonStorm issued server command: /home gang
+[19:08:20] [Server thread/INFO]: Bolt issued server command: /sethome gage
+[19:08:21] [Thread-109/INFO]: UUID of player Goon_Alot is 19794657-a75d-3500-8484-1a9784116734
+[19:08:21] [Server thread/INFO]: Goon_Alot[/[0:0:0:0:0:0:0:1]:57164] logged in with entity id 5910979 at ([world]1147.5079579686198, 68.0, 1278.5360673823568)
+[19:08:23] [Server thread/INFO]: Bolt issued server command: /home house
+[19:09:13] [Server thread/INFO]: drew issued server command: /home home
+[19:09:46] [Server thread/INFO]: JacksonStorm issued server command: /home base
+[19:10:07] [Server thread/INFO]: JacksonStorm issued server command: /home diamonds
+[19:11:57] [Server thread/INFO]: drew issued server command: /home gang
+[19:12:04] [Thread-110/INFO]: UUID of player VoolVool958 is 7c22b302-ab02-3b66-952c-1c9a55955f1a
+[19:12:04] [Server thread/INFO]: VoolVool958[/[0:0:0:0:0:0:0:1]:59936] logged in with entity id 5980492 at ([world]-39.5, 69.0, 253.5)
+[19:12:06] [Server thread/INFO]: VoolVool958 has just earned the achievement [Taking Inventory]
+[19:12:11] [Server thread/INFO]: drew issued server command: /home dirt
+[19:12:11] [Async Chat Thread - #40/INFO]: <Bolt> who are you[m
+
+[19:12:32] [Async Chat Thread - #40/INFO]: <Goon_Alot> who is voolvool[m
+
+[19:12:36] [Async Chat Thread - #40/INFO]: <Goon_Alot> state your name[m
+
+[19:12:42] [Async Chat Thread - #40/INFO]: <VoolVool958> havi[m
+
+[19:12:43] [Server thread/INFO]: VoolVool958 lost connection: Disconnected
+[19:12:43] [Server thread/INFO]: VoolVool958 left the game.
+[19:12:58] [Server thread/INFO]: JacksonStorm issued server command: /home base
+[19:14:45] [Server thread/INFO]: Goon_Alot lost connection: Disconnected
+[19:14:45] [Server thread/INFO]: Goon_Alot left the game.
+[19:15:01] [Thread-111/INFO]: UUID of player freakbob is f21fd111-17cc-3dc8-ae10-2963b3de0dd3
+[19:15:01] [Server thread/INFO]: freakbob[/[0:0:0:0:0:0:0:1]:48336] logged in with entity id 6049426 at ([world]1036.8995051632933, 45.0, -1443.0406018557228)
+[19:15:14] [Server thread/INFO]: JacksonStorm issued server command: /home base
+[19:15:22] [Server thread/INFO]: JacksonStorm drowned
+[19:15:25] [Async Chat Thread - #41/INFO]: <freakbob> woah[m
+
+[19:15:30] [Server thread/INFO]: JacksonStorm issued server command: /home base
+[19:15:40] [Async Chat Thread - #41/INFO]: <drew> freakbob[m
+
+[19:15:44] [Async Chat Thread - #41/INFO]: <drew> i need more dirt[m
+
+[19:15:51] [Async Chat Thread - #41/INFO]: <freakbob> i dont have any more[m
+
+[19:16:15] [Thread-112/INFO]: UUID of player Goon_Alot is 19794657-a75d-3500-8484-1a9784116734
+[19:16:15] [Server thread/INFO]: Goon_Alot[/[0:0:0:0:0:0:0:1]:60370] logged in with entity id 6081691 at ([world]1133.9971368329557, 68.0, 1268.828850230388)
+[19:16:27] [Server thread/INFO]: freakbob issued server command: /home chests
+[19:16:53] [Server thread/INFO]: JacksonStorm issued server command: /home diamonds
+[19:17:00] [Server thread/INFO]: freakbob issued server command: /home house
+[19:17:15] [Server thread/INFO]: Goon_Alot issued server command: /tpa drew
+[19:17:19] [Server thread/INFO]: drew issued server command: /tpaccept
+[19:17:23] [Server thread/INFO]: Goon_Alot issued server command: /tpa drew
+[19:17:27] [Server thread/INFO]: Goon_Alot issued server command: /tpa drew
+[19:17:29] [Server thread/INFO]: drew issued server command: /tpaccept
+[19:17:54] [Server thread/WARN]: Bolt moved wrongly!
+[19:18:23] [Server thread/INFO]: Goon_Alot issued server command: /home theranch
+[19:18:53] [Async Chat Thread - #42/INFO]: <freakbob> okay bro[m
+
+[19:18:58] [Async Chat Thread - #42/INFO]: <freakbob> who stole stuff from my hous[m
+
+[19:19:10] [Async Chat Thread - #42/INFO]: <drew> huh[m
+
+[19:19:11] [Async Chat Thread - #42/INFO]: <Goon_Alot> te[m
+
+[19:19:12] [Async Chat Thread - #42/INFO]: <Goon_Alot> me[m
+
+[19:19:16] [Async Chat Thread - #42/INFO]: <freakbob> really[m
+
+[19:19:16] [Async Chat Thread - #42/INFO]: <Goon_Alot> me[m
+
+[19:19:17] [Async Chat Thread - #42/INFO]: <Goon_Alot> te[m
+
+[19:19:18] [Async Chat Thread - #42/INFO]: <Goon_Alot> lo[m
+
+[19:19:19] [Async Chat Thread - #42/INFO]: <Goon_Alot> la[m
+
+[19:19:22] [Async Chat Thread - #42/INFO]: <freakbob> and like a stack of diamonds?[m
+
+[19:19:26] [Async Chat Thread - #42/INFO]: <Goon_Alot> i was just stating my object pronouns[m
+
+[19:19:26] [Server thread/INFO]: freakbob issued server command: /home gage
+[19:19:50] [Server thread/INFO]: JacksonStorm issued server command: /home base
+[19:19:54] [Server thread/WARN]: Bolt moved wrongly!
+[19:20:02] [Server thread/INFO]: JacksonStorm issued server command: /home diamonds
+[19:20:17] [Async Chat Thread - #42/INFO]: <freakbob> explain[m
+
+[19:20:19] [Server thread/INFO]: JacksonStorm issued server command: /home base
+[19:20:23] [Async Chat Thread - #42/INFO]: <Goon_Alot> bro how you here[m
+
+[19:20:28] [Async Chat Thread - #42/INFO]: <freakbob> tpa earlier[m
+
+[19:20:29] [Async Chat Thread - #42/INFO]: <Goon_Alot> bro set one of his homes on my property[m
+
+[19:20:29] [Async Chat Thread - #42/INFO]: <freakbob> set home[m
+
+[19:20:34] [Async Chat Thread - #42/INFO]: <Goon_Alot> i lied[m
+
+[19:20:37] [Async Chat Thread - #42/INFO]: <Goon_Alot> i was stating my pronouns[m
+
+[19:20:41] [Async Chat Thread - #42/INFO]: <freakbob> who was it[m
+
+[19:20:48] [Async Chat Thread - #42/INFO]: <Goon_Alot> i have no clue bruh im a hillbilly[m
+
+[19:20:55] [Async Chat Thread - #42/INFO]: <Goon_Alot> i dont gotta deal with these problems[m
+
+[19:20:56] [Server thread/INFO]: freakbob issued server command: /home house
+[19:21:12] [Server thread/INFO]: Goon_Alot issued server command: /tpa bolt
+[19:21:16] [Server thread/INFO]: Bolt issued server command: /tpaccept
+[19:22:55] [Async Chat Thread - #43/INFO]: <freakbob> jackson[m
+
+[19:22:58] [Async Chat Thread - #43/INFO]: <freakbob> i know it was you[m
+
+[19:22:59] [Async Chat Thread - #43/INFO]: <freakbob> or drew[m
+
+[19:23:02] [Async Chat Thread - #43/INFO]: <freakbob> that stole stuff[m
+
+[19:23:08] [Async Chat Thread - #43/INFO]: <freakbob> return now and own up to it[m
+
+[19:23:11] [Async Chat Thread - #43/INFO]: <freakbob> or it is war[m
+
+[19:23:11] [Async Chat Thread - #43/INFO]: <Goon_Alot> it was probs caleb[m
+
+[19:23:14] [Async Chat Thread - #43/INFO]: <freakbob> no[m
+
+[19:23:18] [Async Chat Thread - #43/INFO]: <freakbob> it was one of them[m
+
+[19:23:33] [Server thread/INFO]: freakbob issued server command: /tpa mason
+[19:23:35] [Server thread/INFO]: freakbob issued server command: /home mason
+[19:23:36] [Async Chat Thread - #43/INFO]: <drew> man if been building[m
+
+[19:23:39] [Async Chat Thread - #43/INFO]: <drew> ive[m
+
+[19:23:47] [Async Chat Thread - #43/INFO]: <Goon_Alot> bro is manifesting the dirt lords[m
+
+[19:23:52] [Async Chat Thread - #43/INFO]: <drew> idk what other people do[m
+
+[19:23:54] [Async Chat Thread - #43/INFO]: <JacksonStorm> imma to make a lost and found[m
+
+[19:23:59] [Server thread/INFO]: Set freakbob's game mode to Spectator Mode
+[19:24:41] [Server thread/INFO]: Goon_Alot issued server command: /home theranch
+[19:24:50] [Thread-114/INFO]: UUID of player Kp_ is 78974ceb-18e6-3157-b729-55ed7641f46b
+[19:24:50] [Server thread/INFO]: Kp_[/[0:0:0:0:0:0:0:1]:51960] logged in with entity id 6314191 at ([world]116.54979317301964, 71.0, 267.88738246164667)
+[19:24:53] [Async Chat Thread - #43/INFO]: <JacksonStorm> camden come to the village[m
+
+[19:24:53] [Server thread/INFO]: Bolt issued server command: /home gage
+[19:25:13] [Server thread/INFO]: Bolt issued server command: /home house
+[19:25:13] [Server thread/INFO]: Goon_Alot issued server command: /gamemode spectator
+[19:25:16] [Server thread/INFO]: Goon_Alot issued server command: /help s
+[19:25:19] [Server thread/INFO]: Goon_Alot issued server command: /help g
+[19:25:28] [Server thread/INFO]: Goon_Alot issued server command: /p
+[19:25:30] [Server thread/INFO]: Goon_Alot issued server command: /help p
+[19:25:35] [Server thread/INFO]: Goon_Alot issued server command: /help f
+[19:25:35] [Server thread/INFO]: Set freakbob's game mode to Survival Mode
+[19:25:38] [Server thread/INFO]: Goon_Alot issued server command: /help d
+[19:25:41] [Server thread/INFO]: freakbob issued server command: /tpa jacksonstorm
+[19:25:44] [Server thread/INFO]: Goon_Alot issued server command: /e
+[19:25:44] [Async Chat Thread - #43/INFO]: <JacksonStorm> im made a lost and found for people who might have lost stuff[m
+
+[19:25:46] [Server thread/INFO]: Goon_Alot issued server command: /help e
+[19:25:48] [Server thread/INFO]: Goon_Alot issued server command: /help a
+[19:25:48] [Server thread/INFO]: freakbob issued server command: /tpa jacksonstorm
+[19:25:49] [Server thread/INFO]: JacksonStorm issued server command: /tp accept
+[19:25:51] [Server thread/INFO]: Goon_Alot issued server command: /help o
+[19:25:58] [Async Chat Thread - #43/INFO]: <freakbob> r u there rn?[m
+
+[19:26:03] [Async Chat Thread - #43/INFO]: <JacksonStorm> yeah[m
+
+[19:26:06] [Server thread/INFO]: freakbob issued server command: /tpa jacksonstorm
+[19:26:14] [Server thread/INFO]: freakbob issued server command: /tpcancel jacksonstorm
+[19:26:16] [Server thread/INFO]: freakbob issued server command: /tpa jacksonstorm
+[19:26:20] [Async Chat Thread - #43/INFO]: <freakbob> accept[m
+
+[19:26:21] [Server thread/INFO]: JacksonStorm issued server command: /tp accept
+[19:26:32] [Async Chat Thread - #43/INFO]: <JacksonStorm> it says i dont have permission[m
+
+[19:26:47] [Async Chat Thread - #43/INFO]: <freakbob> just click the accept in chat with ur mouse[m
+
+[19:26:54] [Server thread/INFO]: freakbob issued server command: /tpa jacksonstorm
+[19:26:55] [Server thread/INFO]: Kp_ lost connection: Disconnected
+[19:26:55] [Server thread/INFO]: Kp_ left the game.
+[19:26:58] [Server thread/INFO]: JacksonStorm issued server command: /tpaccept
+[19:27:09] [Server thread/INFO]: Bolt issued server command: /home gage
+[19:27:14] [Async Chat Thread - #43/INFO]: <freakbob> where did these 28 diamonds come from[m
+
+[19:27:24] [Async Chat Thread - #43/INFO]: <JacksonStorm> found me[m
+
+[19:27:27] [Async Chat Thread - #43/INFO]: <JacksonStorm> them[m
+
+[19:27:34] [Async Chat Thread - #43/INFO]: <freakbob> u mined them?[m
+
+[19:27:36] [Server thread/INFO]: Bolt issued server command: /home house
+[19:27:46] [Async Chat Thread - #43/INFO]: <Goon_Alot> you guys are fat for setting your homes here[m
+
+[19:27:50] [Async Chat Thread - #43/INFO]: <JacksonStorm> they are compensation[m
+
+[19:27:56] [Async Chat Thread - #43/INFO]: <Bolt> no im not[m
+
+[19:28:01] [Async Chat Thread - #43/INFO]: <freakbob> thank you, greatly appreciated[m
+
+[19:28:09] [Async Chat Thread - #43/INFO]: <freakbob> will give to tristian[m
+
+[19:28:12] [Async Chat Thread - #43/INFO]: <JacksonStorm> i wanna make a bank[m
+
+[19:28:14] [Async Chat Thread - #43/INFO]: <freakbob> he had 64 diamonds stolen[m
+
+[19:28:15] [Async Chat Thread - #43/INFO]: <freakbob> same[m
+
+[19:28:17] [Server thread/INFO]: freakbob issued server command: /home house
+[19:28:25] [Async Chat Thread - #43/INFO]: <Goon_Alot> mama im a criminal[m
+
+[19:28:42] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[19:28:50] [Server thread/INFO]: Given [Ender Chest] * 1 to freakbob
+[19:29:07] [Async Chat Thread - #43/INFO]: <Goon_Alot> pongwingus[m
+
+[19:29:11] [Async Chat Thread - #43/INFO]: <Goon_Alot> pongmingus[m
+
+[19:29:38] [Async Chat Thread - #43/INFO]: <freakbob> bank would get robbed to much jackson[m
+
+[19:29:45] [Async Chat Thread - #43/INFO]: <JacksonStorm> ig[m
+
+[19:29:54] [Async Chat Thread - #43/INFO]: <Goon_Alot> i know when that hotline bling[m
+
+[19:30:55] [Async Chat Thread - #44/INFO]: <freakbob> someone stole my enchant table[m
+
+[19:30:58] [Async Chat Thread - #44/INFO]: <freakbob> and anvil[m
+
+[19:31:04] [Async Chat Thread - #44/INFO]: <freakbob> and another stack of diamonds from tristian[m
+
+[19:31:08] [Async Chat Thread - #44/INFO]: <freakbob> and 2 ender chests[m
+
+[19:31:26] [Async Chat Thread - #44/INFO]: <JacksonStorm> i dont even have silk touch[m
+
+[19:31:40] [Async Chat Thread - #44/INFO]: <drew> wasnt me or jack[m
+
+[19:31:41] [Async Chat Thread - #44/INFO]: <Goon_Alot> am i gonna get teleported to your guys portal if i make a nether portal[m
+
+[19:32:16] [Async Chat Thread - #44/INFO]: <drew> we dont even need that stuff[m
+
+[19:32:24] [Async Chat Thread - #44/INFO]: <freakbob> u guys have sethomes here[m
+
+[19:32:28] [Async Chat Thread - #44/INFO]: <freakbob> i know that[m
+
+[19:32:54] [Async Chat Thread - #44/INFO]: <JacksonStorm> your enchantment table is in caleb's house[m
+
+[19:33:04] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[19:33:07] [Async Chat Thread - #44/INFO]: <freakbob> no way[m
+
+[19:33:11] [Async Chat Thread - #44/INFO]: <freakbob> okay ima go look[m
+
+[19:33:17] [Server thread/INFO]: freakbob issued server command: /house caleb
+[19:33:20] [Server thread/INFO]: freakbob issued server command: /home caleb
+[19:33:49] [Async Chat Thread - #44/INFO]: <freakbob> wow[m
+
+[19:33:51] [Async Chat Thread - #44/INFO]: <freakbob> would u look at that[m
+
+[19:34:00] [Async Chat Thread - #44/INFO]: <JacksonStorm> was it there[m
+
+[19:34:03] [Server thread/INFO]: Set freakbob's game mode to Spectator Mode
+[19:34:07] [Async Chat Thread - #44/INFO]: <freakbob> yes[m
+
+[19:34:20] [Async Chat Thread - #44/INFO]: <JacksonStorm> what did i tell ya[m
+
+[19:34:28] [Async Chat Thread - #44/INFO]: <JacksonStorm> im a master lost and founder[m
+
+[19:34:30] [Async Chat Thread - #44/INFO]: <freakbob> did u frame him[m
+
+[19:34:51] [Server thread/INFO]: freakbob issued server command: /seeinv jacksonstorm
+[19:34:51] [Async Chat Thread - #44/INFO]: <JacksonStorm> no i saw someone put it there[m
+
+[19:34:53] [Async Chat Thread - #44/INFO]: <freakbob> who[m
+
+[19:35:13] [Async Chat Thread - #44/INFO]: <JacksonStorm> prolly uh...[m
+
+[19:35:19] [Server thread/INFO]: freakbob issued server command: /home caleb
+[19:35:23] [Server thread/INFO]: freakbob issued server command: /home caleb
+[19:35:25] [Async Chat Thread - #44/INFO]: <freakbob> caleb?[m
+
+[19:35:34] [Async Chat Thread - #44/INFO]: <JacksonStorm> he has a human skin[m
+
+[19:35:37] [Async Chat Thread - #44/INFO]: <Goon_Alot> great scott![m
+
+[19:36:20] [Server thread/INFO]: freakbob issued server command: /help admin
+[19:36:25] [Server thread/INFO]: freakbob issued server command: /help inv
+[19:36:27] [Server thread/INFO]: freakbob issued server command: /help home
+[19:36:34] [Server thread/INFO]: freakbob issued server command: /help seeinv
+[19:36:38] [Server thread/INFO]: freakbob issued server command: /help inv
+[19:36:41] [Server thread/INFO]: freakbob issued server command: /help inventor
+[19:36:43] [Server thread/INFO]: freakbob issued server command: /help inventory
+[19:36:47] [Async Chat Thread - #45/INFO]: <JacksonStorm> how to wisper[m
+
+[19:37:04] [Server thread/INFO]: freakbob issued server command: /tell [username] [message]
+[19:37:04] [Server thread/INFO]: [freakbob: That player cannot be found]
+[19:37:07] [Server thread/INFO]: freakbob issued server command: /tell [username] [message]
+[19:37:07] [Server thread/INFO]: [freakbob: That player cannot be found]
+[19:37:12] [Async Chat Thread - #45/INFO]: <freakbob> ./tell [username] [message][m
+
+[19:37:21] [Server thread/INFO]: Goon_Alot issued server command: /tell bolt i hate you
+[19:37:29] [Server thread/INFO]: drew issued server command: /tell freakbob hello
+[19:37:30] [Server thread/INFO]: Bolt issued server command: /tell Goon_Alot stupid little boy
+[19:37:31] [Server thread/INFO]: JacksonStorm issued server command: /tell freakbob it was drew
+[19:37:35] [Async Chat Thread - #45/INFO]: <drew> ah[m
+
+[19:37:42] [Server thread/INFO]: Goon_Alot issued server command: /tell freakbob bolt did it
+[19:37:45] [Server thread/INFO]: freakbob issued server command: /tell jacksonstorm actally?
+[19:37:54] [Server thread/INFO]: freakbob issued server command: /tell goon_alot deadass?
+[19:37:57] [Thread-115/INFO]: UUID of player PongMingus is 3770f695-f0b5-3ef3-b08a-4c9cfb37e7c6
+[19:37:57] [Server thread/INFO]: PongMingus[/[0:0:0:0:0:0:0:1]:54746] logged in with entity id 6682459 at ([world]-1069.1009438243598, 70.0, 1793.699999988079)
+[19:38:03] [Server thread/INFO]: Goon_Alot issued server command: /tell freakbob no
+[19:38:04] [Server thread/INFO]: freakbob issued server command: /home shane
+[19:38:07] [Server thread/INFO]: JacksonStorm issued server command: /tell freakbob dont ban him
+[19:38:10] [Server thread/INFO]: freakbob issued server command: /tell goon_alot then shut the heck up
+[19:38:17] [Server thread/INFO]: Goon_Alot issued server command: /tell pongmingus camden is on the lookout for a thief
+[19:38:19] [Server thread/INFO]: freakbob issued server command: /tell jacksonstorm i wont but war may be coming
+[19:38:30] [Server thread/INFO]: JacksonStorm issued server command: /tell freakbob he only took the table nothing else
+[19:38:35] [Server thread/INFO]: Goon_Alot issued server command: /tell pongmingus set your home and tp to me, look at my homestead
+[19:38:39] [Server thread/INFO]: freakbob issued server command: /tell jacksonstorm why tho? he has one
+[19:38:46] [Server thread/INFO]: JacksonStorm issued server command: /tell freakbob if have a master plan
+[19:39:10] [Server thread/INFO]: freakbob issued server command: /tell jacksonstorm he has a master plan?
+[19:39:16] [Server thread/INFO]: JacksonStorm issued server command: /tell freakbob prolly for mischief
+[19:39:24] [Server thread/INFO]: freakbob issued server command: /tell jacksonstorm ima steal his then
+[19:39:31] [Server thread/INFO]: freakbob issued server command: /home mason
+[19:39:33] [Server thread/INFO]: Goon_Alot issued server command: /tell pongmingus come to me boy
+[19:39:43] [Server thread/INFO]: JacksonStorm issued server command: /tell freakbob ok
+[19:40:26] [Server thread/INFO]: Set freakbob's game mode to Survival Mode
+[19:40:40] [Server thread/INFO]: JacksonStorm issued server command: /tell freakbob we need a plan to control all the diamonds so we have leverage in the war
+[19:41:01] [Server thread/INFO]: freakbob issued server command: /tell jacksonstorm lets make a secret vault in the desert
+[19:41:12] [Server thread/INFO]: JacksonStorm issued server command: /tell freakbob ok
+[19:41:31] [Server thread/INFO]: Goon_Alot has just earned the achievement [We Need to Go Deeper]
+[19:41:39] [Server thread/INFO]: Enchanting succeeded
+[19:41:45] [Server thread/INFO]: Goon_Alot issued server command: /set home portal
+[19:41:45] [Server thread/INFO]: Enchanting succeeded
+[19:41:50] [Server thread/INFO]: Goon_Alot issued server command: /sethome portal
+[19:43:01] [Async Chat Thread - #46/INFO]: <drew> camden[m
+
+[19:43:03] [Async Chat Thread - #46/INFO]: <freakbob> yes[m
+
+[19:43:10] [Async Chat Thread - #46/INFO]: <drew> i may have taken somethin[m
+
+[19:43:30] [Async Chat Thread - #46/INFO]: <freakbob> diamonds or enchant or anvil?[m
+
+[19:43:43] [Server thread/INFO]: JacksonStorm issued server command: /home diamonds
+[19:43:47] [Async Chat Thread - #46/INFO]: <drew> i may have put an enchant table in calebs house[m
+
+[19:43:51] [Server thread/INFO]: PongMingus issued server command: /home house
+[19:43:53] [Async Chat Thread - #46/INFO]: <freakbob> omg[m
+
+[19:43:55] [Async Chat Thread - #46/INFO]: <freakbob> why[m
+
+[19:44:01] [Server thread/INFO]: JacksonStorm issued server command: /home base
+[19:44:05] [Async Chat Thread - #46/INFO]: <freakbob> what abt ender chest?[m
+
+[19:44:07] [Async Chat Thread - #46/INFO]: <Goon_Alot> calebs a fat pig[m
+
+[19:44:12] [Async Chat Thread - #46/INFO]: <drew> just a prank[m
+
+[19:44:23] [Async Chat Thread - #46/INFO]: <freakbob> i already retrived it[m
+
+[19:44:24] [Server thread/INFO]: Goon_Alot issued server command: /tpa bolt
+[19:44:32] [Server thread/INFO]: Bolt issued server command: /tpaccept
+[19:44:33] [Async Chat Thread - #46/INFO]: <freakbob> did u take ender chest?[m
+
+[19:44:37] [Async Chat Thread - #46/INFO]: <drew> i have no clue about ender chest or anvils[m
+
+[19:44:43] [Server thread/INFO]: Goon_Alot issued server command: /sethome bolt
+[19:44:52] [Server thread/INFO]: freakbob lost connection: Disconnected
+[19:44:52] [Server thread/INFO]: freakbob left the game.
+[19:45:03] [Server thread/INFO]: Goon_Alot issued server command: /tpa jacksonstorm
+[19:45:14] [Server thread/INFO]: JacksonStorm issued server command: /tp accept
+[19:45:19] [Server thread/INFO]: JacksonStorm issued server command: /tpaccept
+[19:45:46] [Server thread/INFO]: Goon_Alot issued server command: /sethome village
+[19:45:51] [Server thread/INFO]: Goon_Alot issued server command: /home theranch
+[19:45:51] [Server thread/INFO]: JacksonStorm issued server command: /sethome lost
+[19:45:57] [Server thread/INFO]: Goon_Alot lost connection: Disconnected
+[19:45:57] [Server thread/INFO]: Goon_Alot left the game.
+[19:47:05] [Server thread/INFO]: Bolt lost connection: Disconnected
+[19:47:05] [Server thread/INFO]: Bolt left the game.
+[19:47:07] [Server thread/INFO]: JacksonStorm lost connection: Disconnected
+[19:47:07] [Server thread/INFO]: JacksonStorm left the game.
+[19:47:18] [Server thread/INFO]: drew lost connection: Disconnected
+[19:47:18] [Server thread/INFO]: drew left the game.
+[19:47:44] [Server thread/INFO]: PongMingus lost connection: Disconnected
+[19:47:44] [Server thread/INFO]: PongMingus left the game.
+[19:54:42] [Thread-117/INFO]: UUID of player drew is 21b8b8c2-05e0-3fff-ad32-ec3a17f792db
+[19:54:42] [Server thread/INFO]: drew[/[0:0:0:0:0:0:0:1]:41858] logged in with entity id 6967922 at ([world]32.824902616993285, 68.0, 215.8714787680018)
+[19:56:06] [Server thread/INFO]: drew lost connection: Disconnected
+[19:56:06] [Server thread/INFO]: drew left the game.
